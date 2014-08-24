@@ -3,13 +3,15 @@
     <p> A little bit of this, a little bit of that.</p>
     
     <nav role="navigation">
-            <ul>
-                <li><a href="#">Info</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Code</a></li>
-                <li><a href="#">Writing</a></li>
-                <li><a href="#">Reading</a></li>
-            </ul>
+        <ul>
+            {% for page in site.pages | sort 'nav_index'%}
+                {% if page.nav_index %}
+                <li>
+                    <a href="{{page.permalink}}">{{page.title}}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+	</ul>
     </nav>
 
 </header>
