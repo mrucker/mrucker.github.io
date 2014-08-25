@@ -2,11 +2,6 @@
 layout: master
 permalink: /
 ---
-
-  <ul class="posts">
     {% for post in site.posts %}
-      <li>
-        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+        * [{{ post.title }}]({{ post.url }})
     {% endfor %}
-  </ul>

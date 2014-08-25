@@ -31,5 +31,5 @@ body header nav ul li {
 
 body header nav ul li a {
  	display: block; 
-	padding: 8px 30px 8px 0px;
+	margin : 8px 30px 8px 2px;
 }
