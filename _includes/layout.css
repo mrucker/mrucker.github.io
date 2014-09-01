@@ -1,28 +1,28 @@
 body {
-    margin : 0 auto;
-    width  : 670px;
-    padding: 40px
+	margin : 0 auto;
+	width  : 670px;
+	padding: 40px
 }
 
 body header h1 { 
-    margin : 0px;
-    padding: 0px;
+	margin : 0px;
+	padding: 0px;
 }
 
 body header p {
-    margin : 0 0 5px 0;
-    padding: 0;
+	margin : 0 0 5px 0;
+	padding: 0;
 }
 
 body header nav {
- 	margin  : 0px;
+	margin  : 0px;
 	padding : 0px;
 }
 
 body header nav ul {
  	margin  : 0px;
 	padding : 0px;
-    overflow: hidden; /*this forces the floating li's to take their space in the document flow*/
+	overflow: hidden; /*this forces the floating li's to take their space in the document flow*/
 }
 
 body header nav ul li {
