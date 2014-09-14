@@ -29,6 +29,9 @@ body header nav li a:hover {
 }
 /*end header*/
 
-.posts li {
+/*start posts */
+.posts ul {
 	list-style: none;
+	padding   : 0;
 }
+/*end posts */
