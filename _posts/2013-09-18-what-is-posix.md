@@ -1,5 +1,6 @@
 ---
 layout: post
+title : What is POSIX?
 ---
 POSIX stands for Portable Operating System Interface (for uniX) and is a family of standards maintained by the Austin Group. Its purpose is to support application portability between POSIX Operating Systems (POSIX-OS). This post will look at what exactly does portability mean and how POSIX supports that portability. Most of what is included here only considers [POSIX.1-2008][1].
 

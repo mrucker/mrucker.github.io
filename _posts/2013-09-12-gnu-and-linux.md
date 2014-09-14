@@ -1,5 +1,6 @@
 ---
 layout: post
+title : GNU and Linux
 ---
 Often times GNU and Linux can seem synonymous. It is hard to find a reference to one without the other. So what exactly is the difference? Are they both just open source operating systems or is it a little more complicated? What is their relationship to each other? This post will give a little bit of the history of the two movements and explain how they relate.
 
