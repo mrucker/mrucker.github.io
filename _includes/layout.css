@@ -1,3 +1,9 @@
+html {
+	/* we force the scroll bar to always show so that 
+	content doesn't shift when the scrollbar hides/shows*/
+	overflow-y: scroll;
+}
+
 body {
 	margin : 0 auto;
 	width  : 670px;
@@ -22,7 +28,7 @@ body header nav {
 body header nav ul {
  	margin  : 0px;
 	padding : 0px;
-	overflow: hidden; /*this forces the floating li's to take their space in the document flow*/
+	overflow: hidden; /*force the floating li's to take their space in the document flow*/
 }
 
 body header nav ul li {
