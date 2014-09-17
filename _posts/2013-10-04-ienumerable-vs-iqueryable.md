@@ -29,4 +29,4 @@ The IEnumerable interface is only made up of one part: a data source. Every time
 * [EnumerableQueryableAndLinq][2]
 
 [1]: http://stackoverflow.com/a/2876655/1066291
-[2]: https://github.com/mrucker/EnumerableQueryableAndLinq
+[2]: https://github.com/mrucker/.NET-Studies/tree/master/EnumerableQueryableAndLinq

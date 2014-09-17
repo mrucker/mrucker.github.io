@@ -28,4 +28,4 @@ At initialization, if a name for a property isn't given, the Anonymous Type will
 
 * [Anonymous Type Examples][1]
 
-[1]: https://github.com/mrucker/AnonymousTypes
+[1]: https://github.com/mrucker/.NET-Studies/tree/master/AnonymousTypes 

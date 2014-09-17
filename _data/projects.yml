@@ -2,3 +2,8 @@
   url        : http://github.com/mrucker/markrucker.net
   description: The source for this site
   position   : 1
+
+- title      : .NET Studies
+  url        : http://github.com/mrucker/.NET-Studies
+  description: A collection of various projects testing out .NET features
+  position   : 2

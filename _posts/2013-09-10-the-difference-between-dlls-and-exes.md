@@ -44,5 +44,5 @@ So, if both are stored in the same format and contain basically the same three e
 3. For more information on the PE format see [Matt Pietrek's excellent article in the February 2002 issue of MSDN Magazine][3]
 
 [1]: http://en.wikipedia.org/wiki/Portable_Executable
-[2]: https://github.com/mrucker/CompareDotNetExeAndDll
+[2]: https://github.com/mrucker/.NET-Studies/tree/master/CompareDotNetExeAndDll 
 [3]: http://msdn.microsoft.com/en-us/magazine/cc301805.aspx
