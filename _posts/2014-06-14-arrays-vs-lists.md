@@ -9,13 +9,13 @@ The primary difference between Arrays and Lists is their lookup interfaces. For 
 
 #Use What Is Most Understandable Not Most Performant#
 
-The three goals I try to keep in mind when choosing how to write code are understandability, repetition, and performance.
+The three goals I try to keep in mind when choosing how to write code are understandability, repetition, and performance. In regards to using an Array vs a Listhere is how it breaks down.
 
-* Understandability: It depends on what is being done with the collection of objects. If random access of values is occurring the Array interface makes it more clear what is going on. If the collection is only being iterated over then a List makes it more clear this is the case. I think this should be the number
+* Understandability: It depends on what is being done with the collection of objects. If random access of values is occurring the Array interface makes it more clear what is going on. If the collection is only being iterated over then a List makes it more clear this is the case. I think this should be the number one consideration.
 
 * Repetition: For these two data structures I don't feel it matters too much either way. Both are very similar. An Array may allow for less code if a lot of specific index look ups need to be done. Outside of that I imagine most code would be the same length with either structure.
 
-* Performance: This is probably the last consideration when choosing between the two for two reasons. One, since the primary difference is one of interface, every programming language can implement these differently making it challenging to know what actually is the best performance wise. And two, most operations being coded aren't performance critical enough to make a difference.
+* Performance: This is probably the last consideration when choosing between the two for two reasons. One, since the primary difference is one of interface, every programming language can implement these differently making it challenging to know what actually is the best performance wise. And two, most general use code probably isn't performance critical enough to make a difference.
 
 #Implementation Depends On The Language#
 

@@ -25,7 +25,6 @@ At initialization, if a name for a property isn't given, the Anonymous Type will
 
 #Sample Code#
 
-
 * [Anonymous Type Examples][1]
 
 [1]: https://github.com/mrucker/.NET-Studies/tree/master/AnonymousTypes 

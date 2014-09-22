@@ -25,7 +25,4 @@ Since all computers read single bytes from left to right endianness only matters
 
 Bytes are written in reverse order depending on the endianness.
 
-#Sources#
-* [BetterExplained][1]
-
-[1]: http://betterexplained.com/articles/understanding-big-and-little-endian-byte-order/
+[^1]: <http://betterexplained.com/articles/understanding-big-and-little-endian-byte-order/>

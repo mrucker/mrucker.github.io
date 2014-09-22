@@ -1,5 +1,8 @@
 ---
 layout: post
+sources: 
+- http://martinfowler.com/bliki/HeaderInterface.html
+- http://martinfowler.com/bliki/RoleInterface.html
 ---
 When factoring interfaces, most approaches fall into one of two patterns: [Header Interfaces](http://martinfowler.com/bliki/HeaderInterface.html) or [Role Interfaces](http://martinfowler.com/bliki/RoleInterface.html). This post will contrast the two patterns with the hope of giving insight into the strengths and weaknesses of interface factoring.
 

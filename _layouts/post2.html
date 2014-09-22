@@ -1,0 +1,15 @@
+---
+layout: master
+---
+<div id="post">
+	{{ content }}
+</div>
+
+
+<div id="citations">
+	<ol>
+	{% for citation in page.citations %}
+		<li> <a name="#{{forloop.index}}" /> {{citation}} </li>
+	{% endfor %}
+	</ol>
+</div>

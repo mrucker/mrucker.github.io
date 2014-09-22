@@ -35,3 +35,13 @@ body header nav li a:hover {
 	padding   : 0;
 }
 /*end posts */
+
+/*start footnotes */
+.footnotes ol {
+	padding:0;
+}
+
+.footnotes p {
+	display:inline;
+}
+/*end footnotes */

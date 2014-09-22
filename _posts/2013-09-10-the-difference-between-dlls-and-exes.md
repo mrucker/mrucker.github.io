@@ -1,5 +1,5 @@
 ---
-layout: post
+layout   : post
 ---
 This question came up after learning that .NET projects can reference code from dll's and exe's. While .NET prompted the question the answer applies to all dll's and exe's, so .NET will be mostly left out. The goal is to provide a more detailed (and at the same time simpler) view of the Windows environment through the comparison.
 
@@ -27,22 +27,17 @@ No matter how complex a dll gets it will only ever contain the above three thing
 
 Looking at the simple explanations above, dll's and exe's appear to be very similar. Both contain code, data, and a way to "hand off". The only real difference seems to be in the Hand Off. Even there, however, there isn't a huge difference. The dll is handing off to a host process and the executable is handing off to the operating system (Windows).
 
-Microsoft also seems to have thought dll's and exe's were similar because both are actually stored using the same file format: [PE (Portable Executable)][1].
+Microsoft also seems to have thought dll's and exe's were similar because both are actually stored using the same file format: PE (Portable Executable)[^1]. For more information on the PE format see Matt Pietrek's excellent article in the February 2002 issue of MSDN Magazine[^3]
 
 So, if both are stored in the same format and contain basically the same three elements what's the difference? As alluded to above it is in the hand off. Because the operating system can't be modified exe files have to be able to tell the OS where to begin executing code. This is called an entry point. Dlls on the other hand don't have entry points. Their hand off code is placed into whatever host process that references them at compile time. So the difference is simply that:
 
 * Exe's contain an entry point to tell the Operating System where to begin execution
 * Dll's don't contain entry points. Instead, their entry points exist in the host process that references them.
 
+
 #Sample Code#
-[Here][2] is a code sample written using .NET and PowerShell to perform a binary comparison of four identical projects. Two of the projects output as exe's and two of the projects output as dll's. There is an incredible amount of similarity between the exe's and dll's, as we would expect if entry points really are the only difference.
+The sample code[^2] uses PowerShell to perform a binary comparison of four identical projects. Two of the projects output as exe's and two of the projects output as dll's. There is an incredible amount of similarity between the exe's and dll's, as we would expect if entry points really are the only difference.
 
-#Footnotes#
-
-1. I imagine a dll or exe could contain things other than code and data.
-2. I imagine a dll or exe could also probably contain only Code or Data instead of both.
-3. For more information on the PE format see [Matt Pietrek's excellent article in the February 2002 issue of MSDN Magazine][3]
-
-[1]: http://en.wikipedia.org/wiki/Portable_Executable
-[2]: https://github.com/mrucker/.NET-Studies/tree/master/CompareDotNetExeAndDll 
-[3]: http://msdn.microsoft.com/en-us/magazine/cc301805.aspx
+[^1]: <http://en.wikipedia.org/wiki/Portable_Executable>
+[^2]: <https://github.com/mrucker/.NET-Studies/tree/master/CompareDotNetExeAndDll>
+[^3]: <http://msdn.microsoft.com/en-us/magazine/cc301805.aspx>

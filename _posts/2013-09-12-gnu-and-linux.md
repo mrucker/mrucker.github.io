@@ -28,16 +28,8 @@ The GNU project has continued to focus on developing software components. Its pr
 
 Linux has continued to focus on kernels and operating systems. It is claimed that Linux has been ported to more computer platforms than any other operating system.
 
-#Sources#
-* [GNU][1]
-* [Linux Kernel][2]
-* [Linux][3]
-* [GNU/Linux naming controversy][4]
-* [Richard Stallman on GNU vs Linux][5]
-
-[1]: http://en.wikipedia.org/wiki/GNU
-[2]: http://en.wikipedia.org/wiki/Linux_kernel
-[3]: http://en.wikipedia.org/wiki/Linux
-[4]: http://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
-[5]: http://www.gnu.org/gnu/linux-and-gnu.html
-
+[^1]: <http://en.wikipedia.org/wiki/GNU>
+[^2]: <http://en.wikipedia.org/wiki/Linux_kernel>
+[^3]: <http://en.wikipedia.org/wiki/Linux>
+[^4]: <http://en.wikipedia.org/wiki/GNU/Linux_naming_controversy>
+[^5]: <http://www.gnu.org/gnu/linux-and-gnu.html>

@@ -23,7 +23,6 @@ The IEnumerable interface is only made up of one part: a data source. Every time
 
 * [StackOverflow Answer][1]
 
-
 #Sample Code#
 
 * [EnumerableQueryableAndLinq][2]
