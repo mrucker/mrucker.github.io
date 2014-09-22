@@ -36,6 +36,12 @@ body header nav li a:hover {
 }
 /*end posts */
 
+/*start post */
+#post h1 {
+	font-size: 25px;
+}
+/*end post */
+
 /*start footnotes */
 .footnotes ol {
 	padding:0;
