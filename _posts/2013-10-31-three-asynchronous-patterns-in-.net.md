@@ -1,6 +1,6 @@
 ---
 layout: post
-title : Three .NET Asynchronous Patterns
+title : Three Asynchronous Patterns In .NET
 ---
 Microsoft, over the life of the .NET framework, has used many different Asynchronous patterns. This post will look at three of them and hopefully, in the process, shed some light on options available to .NET developers trying to write their own asynchronous code.
 
@@ -16,7 +16,7 @@ A good example of this pattern is BeginInvoke and EndInvoke on delegates.
 
 #Async/Completed Pattern#
 
-In .NET 2.0 Microsoft used the Async/Completed pattern. This pattern also has three major pieces:
+In .NET 2.0 Microsoft used the Async/Completed pattern which also had three pieces.
 
 1. A Method with an 'Async' suffix. This method starts the asynchronous operation
 2. An event with a 'Completed' suffix. This event is fired when the asynchronous operation completes.
@@ -26,7 +26,7 @@ A good example of a class using this pattern is WebClient
 
 #Async/Await Pattern#
 
-In .NET 4.0 Microsoft began using the Async/Await pattern. This pattern also also has three major pieces:
+In .NET 4.0 Microsoft began using the Async/Await pattern that has three pieces as well.
 
 1. 'async' keyword in the signature of the method that will be making the asynchronous call.
 2. 'await' keyword in front of an awaitable operation (typically a Task but doesn't have to be).
@@ -34,13 +34,9 @@ In .NET 4.0 Microsoft began using the Async/Await pattern. This pattern also als
 
 A good example of a class using this pattern is HttpClient.
 
-#Sample Code#
+#Conclusion#
 
-* [Three Asynchronous Patterns][1]
+Much of the information in this post came from page 463 in Jon Skeet's excellent [C# In Depth Third Edition][1]. Sample code demonstrating these patterns can be found [here][1].
 
-#Sources#
-
-* [C# In Depth Third Edition by Jon Skeet][2] Page 463
-
-[1]: https://github.com/mrucker/.NET-Studies/tree/master/ThreeAsynchronousPatterns
-[2]: http://www.amazon.com/Depth-3rd-Edition-Jon-Skeet/dp/161729134X/
+[1]: http://www.amazon.com/Depth-3rd-Edition-Jon-Skeet/dp/161729134X/
+[2]: https://github.com/mrucker/.NET-Studies/tree/master/ThreeAsynchronousPatterns
