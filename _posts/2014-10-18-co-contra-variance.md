@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Co-Contra-Variance
 ---
 Contravariance and Covariance was a language feature I was aware of in .NET, thanks to ReSharper, but didn't really understand. Then, while reading through John Skeet's C# In Depth the other night[^1], I was pleasantly surprised (and simultaneously not surprised at all) to find it covered. While it isn't something one needs all the time, it is a great example of the power of the .NET framework and how much careful thought has gone into crafting it. This article will start with a general introduction to basic Polymorphism concepts (needed to understand this feature) then move on to the specifics of contravariance and covariance.
 
@@ -62,6 +63,8 @@ Contravariance and Covariance allow for the type checker to infer relationships 
 
 ##Covariance##
 
+To look at Covariance let's say we have the following types:
+
 {% highlight C# %}
 public class Cry { }
 public class Maw: Cry { }
@@ -73,10 +76,10 @@ public class Animal<out T> where T: Cry
 }
 
 public class Sheep: Animal<Baa> { }
-public class Llama: Animal<Maw[^2]> { }
+public class Llama: Animal<Maw> { }
 {% endhighlight %}
 
-Which would allow the following assignments
+In this case Covariance would allow the following assignments:
 
 {% highlight C# %}
 
@@ -86,8 +89,9 @@ Animal<Baa> a3 = new Sheep();
 {% endhighlight %}
 
 Notice that we never explicitily defined that Sheep is a subtype of Animal<Cry>. We only said that it was a subtype of Animal<Baa>. However thanks to Covariance, the type checker performs two separate type checks:
+
 1. Is Sheep of type Animal
-2. Is <Baa> of type <Cry>
+2. Is Baa of type Cry
 
 In this case we did define both of those relationships explicitly.
 
@@ -123,13 +127,13 @@ Otter o = new Eater();
 {% endhighlight %}
 
 In this case the type checker performs the following checks:
-1. Is Right type assignable to Left Type
-2. Is Left Generic assignable to Right Generic
+
+1. Is Eater of type Animal
+2. Is Kelp of type Food
 
 #Conclusion#
-Contravariance and Covariance are powerful and useful features when needed. They allow for exponentially more variability in type assignment without adding much complexity for the developer. Perhaps the biggest drawback is that Contravariance is very hard to make sense of. It smacks of the same problem that Little-Endian runs into: one has to think in two different directions at once.
+Contravariance and Covariance are powerful and useful features when needed. They allow for exponentially more variability in type assignment without adding much complexity for the developer. Perhaps the biggest drawback is that Contravariance is very hard to make sense of. It smacks of the same problem that Little-Endian runs into: one has to think in two different directions at once. For more reading on this I recommend Wikipedia[^2] and MSDN[^3].
 
-[^1]:http://www.amazon.com/Depth-3rd-Edition-Jon-Skeet/dp/161729134X 
-[^2]:http://en.wikipedia.org/wiki/List_of_animal_sounds
-[^3]:http://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)
-[^4]:http://blogs.msdn.com/b/csharpfaq/archive/2010/02/16/covariance-and-contravariance-faq.aspx
+[^1]:[C# In Depth 3rd Edition by Jon Skeet](http://www.amazon.com/Depth-3rd-Edition-Jon-Skeet/dp/161729134X)
+[^2]:[Covariance and contravariance (computer science)](http://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science))
+[^3]:[Covariance and Contravariance FAQ](http://blogs.msdn.com/b/csharpfaq/archive/2010/02/16/covariance-and-contravariance-faq.aspx)
