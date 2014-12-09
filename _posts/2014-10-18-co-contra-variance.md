@@ -2,7 +2,7 @@
 layout: post
 title: Co-Contra-Variance
 ---
-Contravariance and Covariance was a language feature I was aware of in .NET, thanks to ReSharper, but didn't really understand. Then, while reading through John Skeet's C# In Depth the other night[^1], I was pleasantly surprised (and simultaneously not surprised at all) to find it covered. While it isn't something one needs all the time, it is a great example of the power of the .NET framework and how much careful thought has gone into crafting it. This article will start with a general introduction to basic Polymorphism concepts (needed to understand this feature) then move on to the specifics of contravariance and covariance.
+Contravariance and Covariance is an advanced language feature in .NET. While it isn't ever necessary, it can add a really nice flair of finesse to a library. It is also a great example of the power of the .NET framework and how much careful thought has gone into crafting it. This article will start with a general introduction to basic Polymorphism concepts (needed to understand this feature) then move on to the specifics of contravariance and covariance.
 
 #Polymorphism#
 
@@ -33,33 +33,10 @@ Dragon d1 = new Beaver();
 Dragon d2 = new Animal();
 {% endhighlight %}
 
-All these relationships were explicitly defined by the developer using the `ClassName: Parent` syntax. In general no type relationships can be inferred unless there is an explicit relationship. This is known as Nominal Typing.
-
-An example of that would look something like this:
-
-{% highlight C# %}
-public class Animal1: Object
-{
-  public void Eat(Food f) { }
-}
-
-public class Animal2 
-{ 
-  public void Eat(Food f) { }
-}
-
-public Dragon: Animal1 { }
-
-//Illegal despite Animal 1 and 2 
-//having identical public interfaces
-Animal2 a2 = new Dragon();
-{% endhighlight %}
-
-
-Because Dragon hasn't been explicitly defined as having a relationship to Animal2 no assignment can be made even though we can see that logically the developer probably meant for them to be related. Here is where Contravariance and Covariance comes in.
+All these relationships were explicitly defined by the developer using the `ClassName: Parent` syntax. In general, no type relationships can be inferred unless there is an explicit relationship. This is known as Nominal Typing (.NET is a Nominally Typed language).
 
 #Co-Contra-Variance#
-Contravariance and Covariance allow for the type checker to infer relationships among generic types. Explicitly named relationships still need to exist but only amongst the separate types that make up the generic and not amongst the generic as a whole.
+Contravariance and Covariance, while different sides of the same coin, aren't equally approachable. At least for me, Covariance was pretty straight forward to learn and use (in fact I bet you've used it without even knowing it). Contravariance on the other hand, has feels like I'm using double negatives. I lose track of what it is I'm actually saying when using it.
 
 ##Covariance##
 
@@ -132,7 +109,7 @@ In this case the type checker performs the following checks:
 2. Is Kelp of type Food
 
 #Conclusion#
-Contravariance and Covariance are powerful and useful features when needed. They allow for exponentially more variability in type assignment without adding much complexity for the developer. Perhaps the biggest drawback is that Contravariance is very hard to make sense of. It smacks of the same problem that Little-Endian runs into: one has to think in two different directions at once. For more reading on this I recommend Wikipedia[^2] and MSDN[^3].
+Contravariance and Covariance are powerful and useful features when needed. They allow for exponentially more variability in type assignment without adding much complexity for the developer. Perhaps the biggest drawback is that Contravariance is very hard to make sense of. It smacks of the same problem that Little-Endian runs into: one has to think in two different directions at once. For more reading on this subject I recommend Jon Skeet[^1], Wikipedia[^2] and MSDN[^3].
 
 [^1]:[C# In Depth 3rd Edition by Jon Skeet](http://www.amazon.com/Depth-3rd-Edition-Jon-Skeet/dp/161729134X)
 [^2]:[Covariance and contravariance (computer science)](http://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science))
