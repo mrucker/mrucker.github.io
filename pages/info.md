@@ -4,8 +4,8 @@ title    : Info
 permalink: /info/
 nav_index: 1
 ---
-Welcome and thank you for coming to my site.
+Welcome and thank you for coming
 
-Here you'll find a collection of things I'm interested in or working on.
+Please make yourself at home and have a look around
 
-Please look around and I hope you find something interesting.
+Here you'll find a collection of things I'm interested in or working on
