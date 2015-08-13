@@ -1,6 +1,6 @@
 ---
-layout   : post
-title    : IL == MSIL == CIL
+layout: post
+title : IL == MSIL == CIL
 ---
 In the .NET world IL, MSIL, and CIL all refer to the compiled output of .NET languages. 
 
