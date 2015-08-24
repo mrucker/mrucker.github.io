@@ -28,7 +28,7 @@ This is what causes me to most reconsider my doubt. For all the ways that I've l
 
 #Conclusion#
 
-For all the work, time and social costs my doubt has had a minimal impact on my actions. All that has really changed has been the internal narrative I use to justify my actions. This pattern of mostly re-justifying old behavior  calls forth the specter of Confirmation Bias. Has it been worth it? Have I made any progress? Or have I just been running on a treadmill powered by my own demons?
+For all the work, time and social costs my doubt has had a minimal impact on my actions. For the most part all that has changed is the internal narrative I use to justify my actions and not the actions themselves. This pattern of reaching new conclusions to justify existing behavior calls forth the specter of Confirmation Bias. Has it been worth it? Have I made any progress? Or have I just been running on a treadmill powered by my own demons that demand confirmation rather than knowledge?
 
 [^1]:[https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy](https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy)
 [^2]:[https://en.wikipedia.org/wiki/Cartesian_doubt](https://en.wikipedia.org/wiki/Cartesian_doubt)
