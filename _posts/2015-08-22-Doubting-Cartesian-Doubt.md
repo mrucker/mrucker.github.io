@@ -2,17 +2,17 @@
 layout: post
 ---
 
-I've always had a predeliction towards doubt. This may sound surprising given my relgious history, but it is nonetheless true. This contradiction was possible because my doubt has been selective, dwelling on matters of philosophy and ethics while ignoring issues of history and physics. I think this was largely been because, in my youth, the latter seemed trivial and uninteresting. Lately I've been reading Descartes' *Meditations on First Philosophy*[^1] which has led me to rethink my doubting disposition. 
+I've always had a predeliction towards doubt. This may sound surprising given my relgious history, but it is nonetheless true. This contradiction was possible because my doubt has been selective, dwelling on matters of philosophy and ethics while ignoring issues of history and physics. This was largely because, in my youth, the latter seemed trivial and uninteresting. Lately I've been reading Descartes' [*Meditations on First Philosophy*](https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy) which has led me to rethink my doubting disposition. 
 
 #What I've Doubted#
 
-To keep this brief I will only look at the effects of Cartesian Doubt[^2] in three very personal domains: politics, ethics, religion. The patterns I'll deliniate fractal out in small ways throughout my life and personality.
+To keep this brief I will only look at the effects of [Cartesian Doubt](https://en.wikipedia.org/wiki/Cartesian_doubt) in three very personal domains: politics, ethics, religion. The patterns I'll deliniate fractal out in small ways throughout my life and personality.
 
 At one time I was unquestionably republican. However, doubt required that I always search for better and better reasons to justify my positions. Every new idea required a re-evaluation of my own ideas. Every argument, no matter how trenchant, must have an equally powerful counterpoint I should be aware of. Every politician, no matter how egregious their actions, must be acting on information I was as yet unaware of. Eventually, all this doubting pulled me away from conservative politics.
 
 At one time I had an unquestionable good old boy code of ethics. Work hard, do your best, take responsibility, provide for women and leave things better than you found them was life blood. For my doubting self these values by themselves weren't enough. When faced with ethical conflicts doubt called me to first re-examine my values before judging others. Surely disagreements over what is good in life were the result of limitations in my own observations rather than limitations in others. Once again my doubting undermined my childhood beliefs.
 
-At one time I was an historical-grammatical[^3] Christian. Every metaphysical question could be answered by the biblical text. Simply accepting the theology given to me wasn't sufficient. If there were questions I didn't have answers to then I didn't know enough. So, I spent years learning. I studied Koine Greek and translated large portions of the New Testament for myself. There were no answers. There were only guesses, biasis and in the best cases good intentions.
+At one time I was a [historical-grammatical](https://en.wikipedia.org/wiki/Historical-grammatical_method) Christian. Every metaphysical question could be answered by the biblical text. Simply accepting the theology given to me wasn't sufficient. If there were questions I didn't have answers to then I didn't know enough. So, I spent years learning. I studied Koine Greek and translated large portions of the New Testament for myself. There were no answers. There were only guesses, biasis and in the best cases good intentions.
 
 #The Good#
 
@@ -29,7 +29,3 @@ This is what causes me to most reconsider my doubt. For all the ways that I've l
 #Conclusion#
 
 For all the work, time and social costs my doubt has had a minimal impact on my actions. For the most part all that has changed is the internal narrative I use to justify my actions and not the actions themselves. This pattern of reaching new conclusions to justify existing behavior calls forth the specter of Confirmation Bias. Has it been worth it? Have I made any progress? Or have I just been running on a treadmill powered by my own demons that demand confirmation rather than knowledge?
-
-[^1]:[https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy](https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy)
-[^2]:[https://en.wikipedia.org/wiki/Cartesian_doubt](https://en.wikipedia.org/wiki/Cartesian_doubt)
-[^3]:[https://en.wikipedia.org/wiki/Historical-grammatical_method](https://en.wikipedia.org/wiki/Historical-grammatical_method)
