@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-* **Cryptography** - The domain of processes and techniques used to secure information from untrusted third parties. 
+* **Cryptography** - Algorithms used to secure information from untrusted third parties.
 
 * **Plaintext** - information in a format that is consumable by any party.
 
