@@ -25,7 +25,7 @@ layout: post
 
 * **Private Key** - An Assymmetric Key which is kept private in a Public-key cryptography protocol. Usually, when people speak of Private Keys, they are referring to the TLS protocol, which publicizes the decryption key. 
 
-* **SSL/TLS** - A network protocol that allows sensitive information to be privately shared between remote parties. TLS is an upgrade to the SSL protocol, which is considered insecure. TLS and SSL use both asymmetric and symmetric encryption. The popular HTTPS protocol implements HTTP over a TLS network.
+* **SSL/TLS** - A network protocol that allows sensitive information to be privately shared between remote parties. TLS is an upgrade to the SSL protocol, which is considered insecure. TLS and SSL use both asymmetric and symmetric encryption. The popular HTTPS protocol implements HTTP over a TLS connection.
 
 * **SSH** - Both a network protocol and a common alias for SSH Clients on Linux distributions. The SSH protocol is similar to TLS in that both enable secure communication over public networks. The most common Linux SSH client is OpenSSH.
 
