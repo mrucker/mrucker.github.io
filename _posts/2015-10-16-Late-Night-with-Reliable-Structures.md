@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-Writing enterprise software is hard. In my experience, a single project can often have multiple stake holders, distribute results through many different tech chains and have its requirements regularly shift. Luckily, software development isn't the only industry that faces problems like this. Inspiration can be found everywhere if ones eyes are kept open. 
+Writing enterprise software is hard. In my experience, a single project can have competing stake holders, unrelated distribution chains, and shifting reuirements. Luckily, software development isn't the only industry that faces these problems like this. Inspiration can be found everywhere. 
 
 This week I found inspiration while reading an [Atlantic article][1] about Late Night with Seth Meyers. Apparently, Meyers has been shaking up the Late Night scene by tinkering with some of the Sacred Cows of his genre. When explaining the significance of his changes Meyers said, "I don't think these are traditions as much as they're structures that have proved they can bear comedy weight. That's the reason people keep using them."
 
@@ -19,6 +19,6 @@ Meyers' appeal to demonstrated utility over philosophical or historical argument
  
  6. **Utilities (aka Shared or Tools)**: A wise developer once told me, "not everything has to be an object. It's alright to have some one-off, static utility methods." When we are running full speed towards a deadline throwing quick helpful functions into a shared pool can be a life saver. After some time has passed we will come back to our utility methods and, with enough of them in one spot, are able to find ways to organize them into propper classes. 
 
-These structures have become good friends, saving me time and time again from unanticipated design-problems. Unfortunately, patterns, no matter how reliable, can always become boring, a motivation killer, or a crutch, a creativity killer. To avoid these traps Meyers had one more piece of advice: find non-critical outlets for experimentation. In this way a developer can always be improving their craft without risking their livelihood.
+These structures have become good friends, saving me time and time again from unanticipated design-problems. Unfortunately, patterns, no matter how useful, can also become a hindrance by becoming boring, a motivation killer, or a crutch, a creativity killer. To avoid these traps Meyers had one more piece of advice: find non-critical outlets for experimentation. In this way a developer can always be improving their craft without risking their livelihood.
 
 [1]: http://www.theatlantic.com/entertainment/archive/2015/08/seth-meyers-late-night-revolution-sitting-in-a-chair/401183/
