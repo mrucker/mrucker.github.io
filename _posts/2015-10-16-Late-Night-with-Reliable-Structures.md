@@ -1,17 +1,15 @@
 ---
 layout: post
 ---
-Recently, I read an Atlantic article about Late Night with Seth Meyers. The piece itself was workaday, but it contained an interesting quote from Meyers about the forms of his genre (e.g. desk interviews, stand up monologues and funny-man band leaders). "I don't think these are traditions as much as they're structures that have proved they can bear comedy weight. That's the reason people keep using them."
+Writing enterprise software is hard. In my experience, a single project can often have multiple stake holders, distribute results through many different tech chains and have its requirements regularly shift. Luckily, software development isn't the only industry that faces problems like this. Inspiration can be found everywhere if ones eyes are kept open. 
 
-In the last six months three software projects I support have transitioned from growth to maturity. During the transition, I've been reflecting on the software, looking for what has gone well and what hasn't. Meyers' comments resonated strongly with these refelections.
+This week I found inspiration while reading an [Atlantic article][1] about Late Night with Seth Meyers. Apparently, Meyers has been shaking up the Late Night scene by tinkering with some of the Sacred Cows of his genre. When explaining the significance of his changes Meyers said, "I don't think these are traditions as much as they're structures that have proved they can bear comedy weight. That's the reason people keep using them."
 
-Even in a medium as foreign to software as late night comedy, one of the keys to mastery is still learning what structures to rely on. Euclid is calling out from his grave. 
-
-Here are the software structures that have borne weight on my recent projects.
+Meyers' appeal to demonstrated utility over philosophical or historical arguments is a really smart way to approach complex systems, where changes often have unexpected consequences. With this in mind, here are some of the structures that have proven their ability to bear weight in my software projects.
 
  1. **ETL**: Perhaps the best decision we ever did was to use the ETL pattern for a few early modules. In our .NET projects that meant we made three interfaces: IRead, IMap and IWrite. We have been able to reuse these interfaces again and again in all kinds of application contexts. These interfaces have become so common that I even find myself writing simple HTTP Request handlers as IMaps, a habbit that hasn't hurt at all and has, on a number of occasions, helped to migrate front end reports to back end scheduled jobs.
  
- 2. **URL**: A change we made midstream was to begin using URLs for non web related resources. The first time we did this was for a project that needed to reference a specific table. We started out having three separate columns: server, database, table. Maintaining these columns was a pain. So, we decided to define our own custom url scheme table://<server>/<database>/[<schema>]/<table>. We now have tons of these (e.g. user://, email:// and grid://).
+ 2. **URL**: The first time I used this pattern was to reference a specific database table. Before using a url we tracked three separate data points: Server, Database and Table. With the url we were able to consolidate these three points into a single url. Our url used a custom 'table' scheme with the following format table://<server>/<database>/<table>. We now have many  custom schemes used all over (e.g. user://, email:// and grid://).
  
  3. **Unit Tests**: I know everyone says it, but I am still amazed by how many projects I've worked on without them. We knew that we'd be supporting our applications for years so we took the time to build an entire library just to make tests eaesier to write and maintain. It has paid itself off a hundred times over. At least five times a day (the approximate number of times I run the tests) I think to myself, "thank God we wrote these."
  
@@ -21,6 +19,6 @@ Here are the software structures that have borne weight on my recent projects.
  
  6. **Utilities (aka Shared or Tools)**: A wise developer once told me, "not everything has to be an object. It's alright to have some one-off, static utility methods." When we are running full speed towards a deadline throwing quick helpful functions into a shared pool can be a life saver. After some time has passed we will come back to our utility methods and, with enough of them in one spot, are able to find ways to organize them into propper classes. 
 
-Well there you have it. Those are some of the structures my team and company rely on every day to keep our software moving forward. They have become like good friends, saving us many times from dreaded, unforseen design-problems.
+These structures have become good friends, saving me time and time again from unanticipated design-problems. Unfortunately, patterns, no matter how reliable, can always become boring, a motivation killer, or a crutch, a creativity killer. To avoid these traps Meyers had one more piece of advice: find non-critical outlets for experimentation. In this way a developer can always be improving their craft without risking their livelihood.
 
-To rely on another weight bearing structure I will close with where I started. Meyers had a final quote on the importance of also having opportunities that let you break form as well, "It's nice right now that there are so many places that are letting you do comedy and just getting out of the way." Perhaps that is another key to success, a place to do what you know what works and a place to experiment.
+[1]: http://www.theatlantic.com/entertainment/archive/2015/08/seth-meyers-late-night-revolution-sitting-in-a-chair/401183/
