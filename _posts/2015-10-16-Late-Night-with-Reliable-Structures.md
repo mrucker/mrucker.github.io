@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-Writing enterprise software is hard. In my experience, a single project can have competing stake holders, unrelated distribution chains, and shifting reuirements. Luckily, software development isn't the only industry that faces these problems like this. Inspiration can be found everywhere. 
+Writing enterprise software is hard. In my experience, a single project can simultaneously have competing stake holders, unrelated distribution chains, and shifting requirements. Luckily, software development isn't the only industry that faces these problems like this. Inspiration can be found everywhere. 
 
 This week I found inspiration while reading an [Atlantic article][1] about Late Night with Seth Meyers. Apparently, Meyers has been shaking up the Late Night scene by tinkering with some of the Sacred Cows of his genre. When explaining the significance of his changes Meyers said, "I don't think these are traditions as much as they're structures that have proved they can bear comedy weight. That's the reason people keep using them."
 
