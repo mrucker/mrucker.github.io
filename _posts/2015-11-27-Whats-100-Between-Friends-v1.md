@@ -1,6 +1,6 @@
 ---
 layout: post
-title : What's A $100 Between Friends
+title : What's A $100 Between Friends (v1)
 ---
 For the last two years I've worked in the industry of [recovery auditing][1]. For me, that has entailed writing software to discover errors in historical financial transactions. After finding these errors we seek to correct them by asking the offending party to reimburse our clients. When I'm feeling philosophical, I build binary abstractions on social contracts respecting history. The work has expanded my existential limits.
 
