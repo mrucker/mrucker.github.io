@@ -5,11 +5,11 @@ title : "Use Your Words: TLSD Sections 1-15"
 
  * **Induction** -- A logical move in which specific information is used to support a general claim. E.g., I have seen 3 white swans -- therefore I'll inductively infer all swans are white.
  
- * **Deduction** -- A logical move in which general information is used to support a specific claim. E.g. All swans are white -- therefore if I see a swan it will be white.
+ * **Deduction** -- A logical move in which general information is used to support a specific claim. E.g., all swans are white -- therefore if I see a swan it will be white.
  
- * **Analytic Statement** -- A statement that is true by definition. E.g., all squares have four sides. It is possible for this statement to be false, but only if we change definitions of words. Otherwise, the statement can only ever be true no matter of what happens in the world.
+ * **Analytic Statement** -- A statement that is true by definition. E.g., all squares have four sides. It is possible for this statement to be false, but only if we change definitions of the words. Otherwise, the statement can only ever be true no matter of what happens in our world.
  
- * **Synthetic Statement** -- A statement that can be true or false depending on the situation it is applied to. E.g., all the swans are white. This statement might be true if by "All the swans" I mean the five white swans in my back yard. However, if "All the swans" includes a black swan then the statement is false.
+ * **Synthetic Statement** -- A statement that can be true or false depending on the situation it is applied to. E.g., all the swans are white. This statement might be true if by "all the swans" I mean the five white swans in my back yard. However, if "all the swans" includes a black swan then the statement is false.
  
  * **Analytic vs Synthetic** -- Structurally there is no way to distinguish between Analytic and Synthetic statements. The only way to differentiate is to understand the context in which a statement is made.
  
