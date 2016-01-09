@@ -16,3 +16,11 @@ About two months ago I was asked by my CIO to design a KPI system. I'd never wor
 #When Bootstrapping A KPI System Consider Automatic Corrections#
 
 #Avoid Double Counting By Defining Sets#
+
+T(x)    = the total at time x
+C(x, y) = the change between times x and y
+C(x, x) = 0
+C(x, y) = T(y) - T(x)
+C(x, y) = I(x, y) - D(x, y)
+C(x, y) = -C(y, x)
+C(x, y) + C(y, z) = C(x, z)
