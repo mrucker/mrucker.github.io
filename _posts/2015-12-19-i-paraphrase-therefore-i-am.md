@@ -1,5 +1,6 @@
 ---
 layout: post
+title : "I Paraphrase, Therefore I Am"
 ---
 A simple collection of notes from various works by Descartes
 
