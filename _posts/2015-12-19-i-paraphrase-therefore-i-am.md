@@ -10,7 +10,7 @@ Notes from [Discourse on the Method][1]:
 
  * One should contain reform efforts to their own person. To do otherwise invites too many unintended or harmful consequences. Each person in turn must decide for themselves what reforms are required. (Eaton 1927, 12 - 13)
  
- * Four step method to attain knowldege:
+ * Four step method to attain knowledge:
     
     1. Accept as true only that for which you are certain (Eaton 1927, 16)
     2. Break complex ideas down into many simpler ideas (Eaton 1927, 17)

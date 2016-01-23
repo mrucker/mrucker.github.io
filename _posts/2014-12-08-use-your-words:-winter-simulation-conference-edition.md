@@ -11,7 +11,7 @@ A few very simple definitions of common terms I learned this week
 
 * **Data Farming** - A set of practices that *creates new* useful data. This is in contrast to Data Mining where the goal is to *find existing* useful data.
 
-* **Monte Carlo Method** - A method to determine the probability a given outcome will occur. The method is to repeat a process to create a desired outcome and record the number of times the number of sucess and failures.
+* **Monte Carlo Method** - A method to determine the probability a given outcome will occur. The method is to repeat a process to create a desired outcome and record the number of times the number of success and failures.
 
 * **Independent and Identically Distributed Random Variable (IID)** - A variable that can be generated over and over again without consideration of previous results. An example of this in real life would be a dice. The result of any roll of the dice is completely independent of any other roll.
 

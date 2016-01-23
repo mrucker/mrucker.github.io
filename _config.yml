@@ -9,4 +9,5 @@ github_username: mrucker
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
+

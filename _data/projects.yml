@@ -1,16 +1,16 @@
 - title      : This Website
-  url        : http://github.com/mrucker/markrucker.net
-  description: The source for this site
+  url        : https://github.com/mrucker/markrucker.net
+  description: The Jekyll fragments that create this website
   position   : 1
 
 - title      : .NET Studies
-  url        : http://github.com/mrucker/.NET-Studies
-  description: A collection of various projects testing out .NET features
+  url        : https://github.com/mrucker/.NET-Studies
+  description: A collection of applications examining .NET features
   position   : 2
 
-- title      : Scripts
+- title      : Automations
   url        : https://github.com/mrucker/Scripts
-  description: A collection of scripts for windows and linux
+  description: A collection of scripts for Windows and Linux
   position   : 3
 
 - title      : Capacity Report

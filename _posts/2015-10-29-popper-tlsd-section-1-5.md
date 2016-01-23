@@ -5,7 +5,7 @@ title : Popper TLSD Section 1-5
 This will be a collection of personal reflections and questions inspired by the first 5 sections of *The Logic of Scientific Discovery* by Karl Popper. The post will take the form of a stream of consciousness second draft (the first draft being the collection of notes scratched on any writable surface unfortunate enough to be within arms reach during my first read through).
 
 #Definitions#
-Popper begin his book with two definitions. One, scientests are individuals who study, create and test logical systems. Two, emperical scientests are scientests who specifically study logical systems that describe the world we all experience. Already Popper is making deductive inferences, moving from a general definition to a more specific one.
+Popper begin his book with two definitions. One, scientists are individuals who study, create and test logical systems. Two, empirical scientists are scientists who specifically study logical systems that describe the world we all experience. Already Popper is making deductive inferences, moving from a general definition to a more specific one.
 
 An 'inductive inference' is a logical movement from a specific claim to a more general one. A 'deductive inference' is the opposite, a logical movement from a general claim to a more specific one.
  
@@ -17,7 +17,7 @@ In philosophical circles the challenge of rigorously proving when inductive infe
 
 Rather than assaulting this problem through through the above method of reductio ad absurdum Popper uses elegant logic:
 
- 1. Observe that inductive inferences could be either valid or invalid. (i.e. by definition they aren't necessarily valid. The inference that all individuals named Mark are men may or may not be true.)
+ 1. Observe that inductive inferences could be either valid or invalid. (I.e., by definition they aren't necessarily valid. The inference that all individuals named Mark are men may or may not be true.)
  2. Assume a test exists by which inductive inferences can be classified as valid or invalid.
  3. Observe a test would be an inductive inference about inductive inferences, a general claim about specific inductive inferences.
  4. Observe In order to validate our new inductive inference about all inductive inferences we would need another test to determine its validity.
@@ -28,16 +28,16 @@ To me the brilliance of this assault is that it makes no claim about the validit
 #Solution of Deduction#
 Popper then suggests that the attractiveness of inductive inferences is a guaranteed way to create knowledge. Fortunately, he says, we don't need to solve the Problem Of Induction to continue to create new knowledge. To believe that we do is to confuse the process by which new knowledge is created with the process by which new knowledge is verified. The Problem of Induction is trying to simultaneously create new knowledge from limited experiences and verify that knowledge. As a solution Popper offers the "deductive method" where knew knowledge is simply hypothesized and then tested against experience only after it has been defined.
 
-Interesting to me is that Popper doesn't "solve" the Problem Of Induction. Rather, in my opinion he simply changes the definition of his words to more accurately fit reality. In doing so he redefintes what had previously been known as a Problem as simply the reality of how logical systems work. However, in doing so he redirects scientific creative energy along more productive channels.
+Interesting to me is that Popper doesn't "solve" the Problem Of Induction. Rather, in my opinion he simply changes the definition of his words to more accurately fit reality. In doing so he redefines what had previously been known as a Problem as simply the reality of how logical systems work. However, in doing so he redirects scientific creative energy along more productive channels.
 
 Four tests are offered by which a new, more general theory can be validated deductively:
 
- 1. Is a hypothesis logically consistent? (e.g the hypothesis, All women named Mark are men, is not internally consistent)
+ 1. Is a hypothesis logically consistent? (E.g the hypothesis, All women named Mark are men, is not internally consistent)
  2. Is a hypothesis falsifiable? (e.g. All men named Mark are Men)
  3. Does the hypothesis actually constitute a new idea?
  4. Does the hypothesis hold true when compared to experience?
 
 #No More Certainty#
-Historically, it had been argued that methods of "inductive inferences" were the only true "scientific methods". This argument came from a belief that the ultimate goal of science was to discover unasaillable truth. Popper points out some of the weaknesses of only allowing this method. He then makes some arguemnts that sound very foreign to sciente about value judgements and faith being core to the adventure of science.
+Historically, it had been argued that methods of "inductive inferences" were the only true "scientific methods". This argument came from the belief that science's ultimate goal was to discover unassailable truth. Popper demonstrates several weaknesses of this belief. He then argues that -- rather than certainty -- value judgments and faith, built on empirical validation, are the core of the scientific process.
 
-It is also worth remembering that absolute truth was the chief pursuit of empirical studies in the early 20th century. Before theories like Godels Incompleteness Theorem and Heisenberg's Uncertainty Principle made it obvious this goal was unatainable. These theories also bring into even sharper relief the problem with defining Emperical Science as only those studies we know to be absolutely valid. Because that goal is impossible such a definition would exclude all pursuits of knowledge from "science".
+It is also worth remembering that absolute truth was the chief pursuit of empirical studies in the early 20th century. Before theories like Godels Incompleteness Theorem and Heisenberg's Uncertainty Principle made it obvious this goal was unattainable. These theories also bring into even sharper relief the problem with defining Empirical Science as only those studies we know to be absolutely valid. Because that goal is impossible such a definition would exclude all pursuits of knowledge from "science".

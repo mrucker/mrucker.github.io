@@ -15,27 +15,25 @@ title : "Use Your Words: TLSD Sections 1-15"
  
  * **Basic Statement** -- A statement of observed fact that can be verified as either true or false by any individual. E.g., There are three kids on the swim team. In science these are the statements which are tested by experiment. (Popper 2002, 21)
  
- * **Singular Statement** -- As far as I can tell there is no difference of meaning between what Popper calls Singular Statements and Basic Statements. The difference seems only to be context. When discussing the Emperical Basis Popper uses "Basic Statements". When discusing Universal Statments he uses Singular Statements. When discussing Falsification he uses both words interchangeably (c.f. Popper 2002, 48). (Popper 2002, 38)
+ * **Singular Statement** -- As far as I can tell there is no difference of meaning between what Popper calls Singular Statements and Basic Statements. The difference seems only to be context. When discussing the Empirical Basis Popper uses "Basic Statements". When discussing Universal Statements he uses Singular Statements. When discussing Falsification he uses both words interchangeably (c.f., Popper 2002, 48). (Popper 2002, 38)
  
  * **Strictly Universal Statement** -- A synthetic statement that is claimed to be true or false in any and all contexts. E.g. All elements have one or more orbiting electrons. (Popper 2002, 38)
 
  * **Numerically Universal Statement** -- A synthetic statement that, no matter how large the set it refers to is, has theoretical bounds. E.g., all swans are white. We may not be able to gather up every swan, but conceivably there was a time when there weren't swans and there will be another time when there won't be. Therefore the set is theoretically bounded within time. Popper says for his purposes he will include these statements as Singular Statements. (Popper 2002, 38)
  
- * **Individual Concept** -- A name that refers to a theoretically bounded set of 1 to infinite elements. (c.f., singular and numerically universal statements) (pg 42)
+ * **Individual Concept** -- A name that refers to a theoretically bounded set of 1 to infinite elements. (C.f., singular and numerically universal statements) (pg 42)
  
- * **Universal Concept** -- A name that refers to an unbounded set. This makes me think of Plato's cave. The pure universal ideal rather specific implementations. e.g., man's greatest achievement is Civilization -- in contrast to, the world's civilizations are at war. (Popper 2002, 42)
+ * **Universal Concept** -- A name that refers to an unbounded set. This makes me think of Plato's cave. The pure universal ideal rather specific implementations. E.g., man's greatest achievement is Civilization -- in contrast to, the world's civilizations are at war. (Popper 2002, 42)
  
  * **Problem of Induction** -- The philosophical problem of when it is logically justifiable to move from specific observations to general conclusions. Can I make the general claim that all swans are white after I've observed every specific swan now living on earth? This problem is most famously associated with David Hume. (Popper 2002, 20)
   
  * **Principle of Induction** -- The holy grail of the Problem of Induction. A sought after set of principles that can prove when induction is valid and when it isn't. (Popper 2002, 4)
  
- * **Problem of Demarcation** -- The philosophical problem of how to differentiate between statements that can be empirically studied and statements that are a matter of faith (a.k.a. metaphysical). E.g., why is the statement, all matter came to exist after a big bang 13.7 billion years ago, demarcated as scientific, while the statement, God created man 6,000 years ago, not? (Popper 2002, 11)
+ * **Problem of Demarcation** -- The philosophical problem of how to differentiate between statements that can be empirically studied and statements that are a matter of faith (i.e., metaphysical). E.g., why is the statement, all matter came to exist after a big bang 13.7 billion years ago, demarcated as scientific, while the statement, God created man 6,000 years ago, not? (Popper 2002, 11)
  
  * **Logic of Knowledge** -- The methods by which we verify knowledge and understand how it relates to other knowledge. What logical tools do we use for this? (Popper 2002, 7)
  
- * **Psychology of Knowledge** -- The process that occurs in the human mind that results in new hypothesis/knowledge. Popper argues that seeking a Principle of Induction conflates these two by trying to create logic for something that is inherintly illogical. How a mind creates new ideas is of no concern to empirical science. Rather, emprical science is simply concerned with validating new theories once they've been created. (Popper 2002, 7)
- 
- * **Hypothesis** -- A synthetic, Strictly Universal, falsifiable statement.
+ * **Psychology of Knowledge** -- The process that occurs in the human mind that results in new hypotheses/knowledge. Popper argues that seeking a Principle of Induction conflates these two by trying to create logic for something that is inherently illogical. How a mind creates new ideas is of no concern to empirical science. Rather, inherently Universal, falsifiable statement.
  
  * **Theory** -- A collection of interrelated hypothesis.
 

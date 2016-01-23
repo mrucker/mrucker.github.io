@@ -9,7 +9,7 @@ The primary difference between Arrays and Lists is their lookup interfaces. For 
 
 #Use What Is Most Understandable Not Most Performant#
 
-The three goals I try to keep in mind when choosing how to write code are understandability, repetition, and performance. In regards to using an Array vs a Listhere is how it breaks down.
+The three goals I try to keep in mind when choosing how to write code are understandability, repetition, and performance. In regards to using an Array vs a List here is how it breaks down:
 
 * Understandability: It depends on what is being done with the collection of objects. If random access of values is occurring the Array interface makes it more clear what is going on. If the collection is only being iterated over then a List makes it more clear this is the case. I think this should be the number one consideration.
 
