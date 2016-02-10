@@ -2,29 +2,30 @@
 layout: post
 title : What is POSIX?
 ---
-POSIX stands for Portable Operating System Interface (for uniX) and is a family of standards maintained by the Austin Group. Its purpose is to support application portability between POSIX Operating Systems (POSIX-OS). This post will look at what exactly does portability mean and how POSIX supports that portability. Most of what is included here only considers POSIX.1-2008[^1].
+The Portable Operating System Interface (POSIX) is a collection of standards, maintained by IEEE to facilitate application portability between operating systems. Most of what is included here only considers [POSIX.1-2008][1].
 
-#POSIX Portability Means#
+#Portability *Does* Means#
 
-* With minimal effort most executables can be used on other POSIX-OS's.
-* With minimal effort most script files can be used on other POSIX-OS's.
-* With minimal effort most C projects can compile on other POSIX-OS's.
+* With minimal effort most executables can be used on other POSIX-OSes.
+* With minimal effort most script files can be used on other POSIX-OSes.
+* With minimal effort most C projects can compile on other POSIX-OSes.
 
-#POSIX Portability Doesn't Mean#
+#Portability *Doesn't* Mean#
 
 * An executable will "just work" when copied to another POSIX-OS.
 * A data file will open correctly when copied to another POSIX-OS.
 
-#How POSIX Enables Portability#
-POSIX promotes portability by defining three separate programming interfaces. These interfaces work together to create a seamless whole:
+#How Portability Works#
+POSIX promotes portability by defining three separate programming interfaces:
 
-1. C Headers
-2. Shell Command Language
+1. Kernel C Headers
+2. Shell Languages
 3. Shell Utilities
 
-Porting procedures for executables will depend on which POSIX interfaces the executable uses. A C program using the C Headers will simply need to be recompiled. A script file using Shell Command Language will need its shell interpreter path updated. And, Shell Utilities shouldn't need anything as these will be executable applications already in the POSIX environment.
+The steps required to port will depend on which POSIX interfaces an application is using. A C program will likely just need to be recompiled, a script file may need its interpreter path updated, and shell utilities likely won't require any changes since these will be executable applications already in the POSIX environment.
 
-In many cases porting may require more than simply updating a shell interpreter path or recompiling. It isn't uncommon for applications to have dependencies beyond POSIX. In these cases POSIX makes it so there are only one or two project dependencies to install instead of the fifteen.
+In many cases porting may require more than recompiling or updating an interpreter path. It isn't uncommon for applications to have dependencies beyond POSIX. In such cases POSIX still helps by reducing the missing dependencies to one or two projects rather than fifteen.
 
-[^1]: <http://pubs.opengroup.org/onlinepubs/9699919799/>
-[^2]: <http://pubs.opengroup.org/onlinepubs/9699919799/>
+One final note on the brief reference above to data file portability. The POSIX standard says nothing about the endianness of a computer's processor. Therefore, it is entirely possible to have two POSIX compliant machines that can't port anything without first performing a byte order conversion.
+
+[1]: <http://pubs.opengroup.org/onlinepubs/9699919799/>

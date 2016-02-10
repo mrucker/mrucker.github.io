@@ -81,4 +81,3 @@ Hearkening back to Math as Programming here are a few basic formulas to begin to
  * C(x, y) = -C(y, x)
  * C(x, y) + C(y, z) = C(x, z)
  * S(x, y) = C(x, y) / (y - x)
-
