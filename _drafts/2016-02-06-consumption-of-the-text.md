@@ -2,6 +2,16 @@
 layout: post
 ---
 
+Writing has always been a dark art, for that reason I've hated it. No where else has effort on my part resulted in such inconsistent outcomes (with the potential exception of web development), a case study in learned helplessness. Case in point, I have received a 5.5 and a 3.5 on the GRE Analytical Writing section.
+
+I have now spent the better part of three years attempting to conquer this bane once and for all. Finally, after much reflection, reading, and practice I've finally begun to create systems of hypothesis that are yielding consistent results.
+
+#Right Is Wrong#
+
+#Info As Bedrock#
+
+#Leverage Social Constructs#
+
  + Predicate: The information one would like to share
  + Subject  : The object one would like to share information about
 
@@ -14,5 +24,3 @@ First, let's look at a simple case that supports the premise: John is five. In t
 I'm going to share a piece of information without a referenced object: five. That's the piece of information, the number five. Without me telling you anything else
 
 Experiential information could be an exception to this. I can play a song for you without providing any object and information will definitely be shared. However, I believe the case of experiential information transfer is a unique case where the information itself is the object being referenced. Furthermore, I'd argue that information shared through written word is rarely experiential. For this reason all sharing must have an object and information. Otherwise nothing is shared.
-
-
