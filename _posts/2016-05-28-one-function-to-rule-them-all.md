@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-Machine Learning is perhaps one of the most important idea of our time. It shapes our lives  (e.g., Google Search) and our dreams (e.g. The Matrix). New descriptive words have entered our vernacular to try and grapple with these tools. Unfortunately, these words often sound more like they belong in ancient books of magic and mysticism than in our modern age: words like deep, neural and emergent. Fortunately, there is a simple solution. All machine learning algorithms can be boiled down to one equation, Y = f(X) + e, and consequently a simple vocabulary that uses everyday ideas we are all familiar with.
+Machine Learning is perhaps one of the most important ideas of our time. It shapes our lives  (e.g., Google Search) and our dreams (e.g. The Matrix). New descriptive words have entered our vernacular to try and grapple with these tools. Unfortunately, these words often sound more like they belong in ancient books of magic and mysticism than in our modern age: words like deep, neural and emergent. Fortunately, there is a simple solution. All machine learning algorithms can be boiled down to one equation, Y = f(X) + e, and consequently a simple vocabulary that uses everyday ideas we are all familiar with.
 
 To begin, we'll translate Y = f(X) + e (which is written in Algebra) into English (i.e., math is a language and, like any other language, can be translated). First, we'll replace X and Y to get Results = f(Inputs) + e. We still haven't translated "f" or "e", but we can already start to make sense of Machine Learning. No matter the method, all learning algorithms are simply about taking a set of Inputs and somehow turning them into Results.
 
