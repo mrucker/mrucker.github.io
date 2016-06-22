@@ -4,21 +4,21 @@
   position   : 1
 
 - title      : Rucker.NET 
-  url        : https://github.com/mrucker/Rucker
-  description: A collection of data libraries I've written over many years
+  url        : https://github.com/mrucker/Rucker.NET
+  description: A collection of libraries to work with large data sets 
   position   : 2
 
-- title      : .NET Studies
-  url        : https://github.com/mrucker/.NET-Studies
+- title      : Studies.NET
+  url        : https://github.com/mrucker/Studies.NET
   description: A collection of applications examining .NET features
   position   : 3
 
-- title      : Automations
-  url        : https://github.com/mrucker/Scripts
+- title      : Scriptings
+  url        : https://github.com/mrucker/Scriptings
   description: A collection of scripts for Windows and Linux
   position   : 4
 
-- title      : Capacity Report
+- title      : Capacity 2011
   url        : https://drive.google.com/open?id=0ByS2UG_X7wkOZmVkc0lSSXNxT0U
-  description: My capacity report for the Regional Food Bank of Oklahoma
+  description: My final report, written for the RFBO executive team
   position   : 5
