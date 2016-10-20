@@ -1,14 +1,15 @@
 ---
 layout: post
 ---
-Ok, so to start with I want to lay out a couple of foundational ideas. These may not make sense now but keep them in mind while you read my explanations below and hopefully it'll start to click.
+An excerpt from an email I sent to a few friends last week.
+
+I've been trying to decide how to best organize my ideas. The challenge is that mathematical knowledge isn't linear, so there is no natural organization. Therefore, I'm going to start with some interesting ideas, to show what I'm offering here, and then proceed historically. These ideas may not make sense right now. That's ok. Just keep them in mind while you read my explanations below and hopefully it'll start to click.
 
 1. Math is a language. It has more in common with English than arithmetic.
 2. Math and the physical world are different things, just like with words. (I.e., I can say the water is cold but it doesn't mean that it is. Similarly, I can say that 1 + 1 = 2 but it doesn't mean that it does (e.g., 1 cup of water + 1 cup of popcorn doesn't equal 2 cups of soggy popcorn).)
 3. Math is not "proven". The word proof should be erased from the mathematical vocabulary in my opinion. Math is argued over and debated. Some people win these arguments until better arguments come along. The winner's arguments are called "proofs".
 4. Math is a language designed to do one thing, communicate relationships with perfect precision.
 
-Alright, I've been trying to decide how to best organize these ideas. The problem is that math isn't linear, so there is no natural organization. I think I'm going to start with some interesting ideas to show what I'm offering here and then proceed historically.
 
 As I say above, math is a language that was created to express relationships. Try to wipe your mind of all you've ever learned about arithmetic and focus on this relationship aspect. With this relationship approach we can begin to organize math into "kinds" of relationships: 
 
@@ -43,6 +44,6 @@ When a mathematician says they have "proven" something, 9 times out of 10 what t
 
 These properties of Axioms are the bedrock for why mathematical knowledge continues to advance. Math can, with moderate ease in relation to its complexity, be passed on to new generations and new generations can add to it with confidence that they are actually improving things.
 
-Well there you go. A basic introduction to axioms. An interesting application of Axioms is the Turing Machine (if you've ever heard of it). When people say Alan Turing created computers what they really mean is he discovered the seven axioms that define all computers (seen here). That's it, just seven. Every computer that you have in your house from your thermostat to your smartphone to your laptop is equivalent to Turing's seven axioms.
+Well there you go. A basic introduction to axioms. An interesting application of Axioms is the Turing Machine (if you've ever heard of it). When people say Alan Turing created computers what they really mean is he discovered the seven axioms that define all computers (seen [here](https://en.wikipedia.org/wiki/Turing_machine#Formal_definition)). That's it, just seven. Every computer that you have in your house from your thermostat to your smartphone to your laptop is equivalent to Turing's seven axioms.
 
 I'll stop there. Next time I'll link Axioms to Algebra (again without any arithmetic). Then after that I'll go to convergence, which in my opinion is one of the most powerful and simple ideas in math. I tried really hard to keep this accessible to people without advanced mathematics education. For those of you who read it, I'd love to hear what parts you think are too technical and wordy.
