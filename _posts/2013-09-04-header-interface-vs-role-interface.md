@@ -39,24 +39,24 @@ public interface IGroceryStore
 }
 {% endhighlight %}
 
-##Analysis##
+## Analysis ##
 
 Header interfaces are easy to create but aren't always the easiest to understand or maintain.
 
-###Pros###
+### Pros ###
 
 * Very easy to make
 
 
-###Cons###
+### Cons ###
 
 * New members on GroceryStore will likely need to be added to IGroceryStore as well.
 * Semantics of code aren't always clear
 
 
-#Role Interfaces
+# Role Interfaces
 
-##Pattern
+## Pattern
 
 A class is broken into many interfaces. Each interface represents a different role:
 
@@ -97,7 +97,7 @@ public interface ITally
 
 This pattern is harder to implement than header interfaces, but often pays off by being more understandable and easier to maintain. The challenge comes from having many small interfaces instead of one big interface, since there are often many sensible ways to create the "role" interfaces. For example, another option for the sample code could have have been an ICheckout with all sale methods and an ICustomerService with all refund methods.
 
-###Pros
+### Pros
 
 * Easier to know exactly what you need to mock out for testing
 * More clear what a method's purpose is (e.g. void CloseRegisters(ITally tally))
