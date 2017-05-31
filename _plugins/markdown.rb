@@ -1,4 +1,4 @@
-#taken from http://wolfslittlestore.be/2013/10/rendering-markdown-in-jekyll/
+# taken from http://wolfslittlestore.be/2013/10/rendering-markdown-in-jekyll/
 
 =begin
   Jekyll tag to include Markdown text from _includes directory preprocessing with Liquid.

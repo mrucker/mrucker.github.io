@@ -4,7 +4,7 @@ title : Three Asynchronous Patterns In .NET
 ---
 Microsoft, over the life of the .NET framework, has used many different Asynchronous patterns. This post will look at three of them and hopefully, in the process, shed some light on options available to .NET developers trying to write their own asynchronous code.
 
-#Begin/End Pattern#
+# Begin/End Pattern#
 
 In .NET 1.x Microsoft used the Begin/End pattern. This pattern had three major pieces:
 
@@ -14,7 +14,7 @@ In .NET 1.x Microsoft used the Begin/End pattern. This pattern had three major p
 
 A good example of this pattern is BeginInvoke and EndInvoke on delegates.
 
-#Async/Completed Pattern#
+# Async/Completed Pattern#
 
 In .NET 2.0 Microsoft used the Async/Completed pattern which also had three pieces.
 
@@ -24,7 +24,7 @@ In .NET 2.0 Microsoft used the Async/Completed pattern which also had three piec
 
 A good example of a class using this pattern is WebClient
 
-#Async/Await Pattern#
+# Async/Await Pattern#
 
 In .NET 4.0 Microsoft began using the Async/Await pattern that has three pieces as well.
 
@@ -34,7 +34,7 @@ In .NET 4.0 Microsoft began using the Async/Await pattern that has three pieces 
 
 A good example of a class using this pattern is HttpClient.
 
-#Conclusion#
+# Conclusion#
 
 Much of the information in this post came from page 463 in Jon Skeet's excellent [C# In Depth Third Edition][1]. Sample code demonstrating these patterns can be found [here][1].
 
