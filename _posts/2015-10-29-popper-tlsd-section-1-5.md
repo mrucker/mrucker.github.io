@@ -4,7 +4,7 @@ title : Popper TLSD Section 1-5
 ---
 This will be a collection of personal reflections and questions inspired by the first 5 sections of *The Logic of Scientific Discovery* by Karl Popper. The post will take the form of a stream of consciousness second draft (the first draft being the collection of notes scratched on any writable surface unfortunate enough to be within arms reach during my first read through).
 
-# Definitions#
+# Definitions #
 Popper begin his book with two definitions. One, scientists are individuals who study, create and test logical systems. Two, empirical scientists are scientists who specifically study logical systems that describe the world we all experience. Already Popper is making deductive inferences, moving from a general definition to a more specific one.
 
 An 'inductive inference' is a logical movement from a specific claim to a more general one. A 'deductive inference' is the opposite, a logical movement from a general claim to a more specific one.
@@ -12,7 +12,7 @@ An 'inductive inference' is a logical movement from a specific claim to a more g
  + **Inductive**: There is a man named Mark. Therefore we can posit that all people named Mark are men.
  + **Deductive**: All people named Mark are men. Therefore we can posit that a person named Mark is a man.
 
-# Problem of Induction#
+# Problem of Induction #
 In philosophical circles the challenge of rigorously proving when inductive inferences are correct is known as "The Problem of Induction". To explore this problem consider what information would be needed to validate the above inductive example? Perhaps the gender of all living Marks? What about the gender of historical Marks?  Or the gender of future Marks? So do we have to know the gender of all people named Mark for all time? Or what about an alien species we've yet to discover that just so happens to like the name Mark?
 
 Rather than assaulting this problem through through the above method of reductio ad absurdum Popper uses elegant logic:
@@ -25,7 +25,7 @@ Rather than assaulting this problem through through the above method of reductio
 
 To me the brilliance of this assault is that it makes no claim about the validity of inductive inferences. Certainly some are valid. Instead it simply argues that there is no inductive inference that can ever be proven absolutely valid.
 
-# Solution of Deduction#
+# Solution of Deduction #
 Popper then suggests that the attractiveness of inductive inferences is a guaranteed way to create knowledge. Fortunately, he says, we don't need to solve the Problem Of Induction to continue to create new knowledge. To believe that we do is to confuse the process by which new knowledge is created with the process by which new knowledge is verified. The Problem of Induction is trying to simultaneously create new knowledge from limited experiences and verify that knowledge. As a solution Popper offers the "deductive method" where knew knowledge is simply hypothesized and then tested against experience only after it has been defined.
 
 Interesting to me is that Popper doesn't "solve" the Problem Of Induction. Rather, in my opinion he simply changes the definition of his words to more accurately fit reality. In doing so he redefines what had previously been known as a Problem as simply the reality of how logical systems work. However, in doing so he redirects scientific creative energy along more productive channels.
@@ -37,7 +37,7 @@ Four tests are offered by which a new, more general theory can be validated dedu
  3. Does the hypothesis actually constitute a new idea?
  4. Does the hypothesis hold true when compared to experience?
 
-# No More Certainty#
+# No More Certainty #
 Historically, it had been argued that methods of "inductive inferences" were the only true "scientific methods". This argument came from the belief that science's ultimate goal was to discover unassailable truth. Popper demonstrates several weaknesses of this belief. He then argues that -- rather than certainty -- value judgments and faith, built on empirical validation, are the core of the scientific process.
 
 It is also worth remembering that absolute truth was the chief pursuit of empirical studies in the early 20th century. Before theories like Godels Incompleteness Theorem and Heisenberg's Uncertainty Principle made it obvious this goal was unattainable. These theories also bring into even sharper relief the problem with defining Empirical Science as only those studies we know to be absolutely valid. Because that goal is impossible such a definition would exclude all pursuits of knowledge from "science".
