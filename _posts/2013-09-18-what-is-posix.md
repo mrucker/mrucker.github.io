@@ -4,18 +4,18 @@ title : What is POSIX?
 ---
 The Portable Operating System Interface (POSIX) is a collection of standards, maintained by IEEE to facilitate application portability between operating systems. This article only considers the [POSIX.1-2008][1] standard.
 
-#Portability *Does* Means#
+# Portability *Does* Means #
 
 * With minimal effort most executables can be used on other POSIX-OSes.
 * With minimal effort most script files can be used on other POSIX-OSes.
 * With minimal effort most C projects can compile on other POSIX-OSes.
 
-#Portability *Doesn't* Mean#
+# Portability *Doesn't* Mean #
 
 * An executable will "just work" when copied to another POSIX-OS.
 * A data file will open correctly when copied to another POSIX-OS.
 
-#How Portability Works#
+# How Portability Works #
 POSIX promotes portability by defining three separate programming interfaces:
 
 1. Kernel C Headers
