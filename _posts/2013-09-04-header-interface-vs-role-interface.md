@@ -93,7 +93,7 @@ public interface ITally
 }
 {% endhighlight %}
 
-##Analysis
+## Analysis
 
 This pattern is harder to implement than header interfaces, but often pays off by being more understandable and easier to maintain. The challenge comes from having many small interfaces instead of one big interface, since there are often many sensible ways to create the "role" interfaces. For example, another option for the sample code could have have been an ICheckout with all sale methods and an ICustomerService with all refund methods.
 
