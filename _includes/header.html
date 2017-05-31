@@ -4,7 +4,8 @@
     
     <nav role="navigation">
         <ul>
-            {% for page in site.pages | sort 'nav_index'%}
+	    {% assign pages = site.pages | sort: 'nav_index' %} 
+            {% for page in pages%}
                 {% if page.nav_index %}
                 <li>
                     <a href="{{page.permalink}}">{{page.title}}</a>
