@@ -3,11 +3,11 @@ layout: post
 ---
 Somewhat basic but not used often so here is a refresher. 
 
-#Endianness Is Determined By The CPU#
+# Endianness Is Determined By The CPU #
 
 Whether a computer is big-endian or little-endian depends on the cpu in the machine. The endianness of the processor is the endianness of the computer. RAM and hard-drives don't have endianness.
 
-#All Computers Read A Single Byte From Left To Right#
+# All Computers Read A Single Byte From Left To Right #
 
 Whether a computer is big-endian or little-endian an individual byte is read from left to right.
 
@@ -16,7 +16,7 @@ Whether a computer is big-endian or little-endian an individual byte is read fro
 
 So, byte 0x2E (i.e. 00101110) on both big-endian and little-endian computers is 0x2E.
 
-#Endianness Is About The Order Of Multiple Bytes#
+# Endianness Is About The Order Of Multiple Bytes #
 
 Since all computers read single bytes from left to right endianness only matters when reading multiple bytes.
 
