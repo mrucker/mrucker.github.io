@@ -1,24 +1,34 @@
+- title      : Master's Thesis
+  url        : https://thesis.markrucker.net
+  description: Researching how to improve task based mouse control [due Aug 2018]
+  position   : 1
+
+- title      : DSI Fellowship
+  url        : https://dsi.markrucker.net
+  description: Researching the ethics of recommender algorithms [due Aug 2018]
+  position   : 2
+
 - title      : This Website
   url        : https://github.com/mrucker/markrucker.net
   description: The Jekyll fragments that create this website
-  position   : 1
+  position   : 3
 
 - title      : Rucker.NET 
   url        : https://github.com/mrucker/Rucker.NET
   description: A collection of libraries to work with large data sets 
-  position   : 2
+  position   : 4
 
 - title      : Studies.NET
   url        : https://github.com/mrucker/Studies.NET
   description: A collection of applications examining .NET features
-  position   : 3
+  position   : 5
 
-- title      : Scriptings
+- title      : Scriptings 
   url        : https://github.com/mrucker/Scriptings
   description: A collection of scripts written for Windows and Linux
-  position   : 4
+  position   : 6
 
 - title      : Capacity 2011
   url        : https://drive.google.com/open?id=0ByS2UG_X7wkOZmVkc0lSSXNxT0U
   description: A report written for the RFBO executive team
-  position   : 5
+  position   : 7
