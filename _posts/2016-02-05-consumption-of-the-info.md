@@ -17,7 +17,7 @@ For example, let's say we have the information "five years". Without knowing the
  + Experiencing - What our senses feel. (E.g., I see the sky is cloudy.)
  + Interpreting - What our senses mean. (E.g., I should expect rain.)
 
-These sources highlight a unique aspect of humanity. We are always, in every moment, both experiencing and interpreting reality. For example, if I miss a traffic light while driving to work, I experience having to stop, and I likely interpret it as an inconvenience.
+These sources highlight a unique aspect of humanity. We are always, in every moment, both experiencing and interpreting reality. For example, if I hit a traffic light while driving to work, I experience having to stop, and I likely interpret it as an nuisance.
 
 # Types Of Information: #
  + Historical   - Information concerning completed events in the past
