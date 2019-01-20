@@ -1,11 +1,23 @@
 html {
+	/* we force the scroll bar to always show so that 
+	 * content doesn't shift when the scrollbar hides/shows*/
+	overflow-y: scroll;
+}
+
+body {
 	font-family: 'Open Sans';
 }
 
 /*start header */
+body header p {
+	margin-bottom: 5px;
+}
+
 body header h1 { 
 	font-size  : 40px;
 	font-weight: normal;
+	padding    : 0px;
+	margin     : 0px;
 }
 
 body header nav {
@@ -13,41 +25,43 @@ body header nav {
 	border-top   : 1px solid #ccc;
 }
 
-body header nav ul {
-	list-style: none;
+body header nav .row {
+	margin-top   : 8px;
+	margin-bottom: 8px;
 }
 
-body header nav ul li a {
+body header nav div a {
 	text-decoration: none;
 	font-weight    : bold;
 	color          : #000;
 }
 
-body header nav li a:hover {
+body header nav div a:hover {
 	color           : #c00;
 	background-color: #fff; 
 }
-/*end header*/
+/*finish header*/
 
-/*start posts */
+/*start content*/
+#content {
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+/*finish content*/
+
+/*start posts*/
 .posts ul {
 	list-style: none;
-	padding   : 0;
+	padding   : 0px;
 }
-/*end posts */
 
-/*start post */
-#post h1 {
+.posts ul li {
+	margin-bottom: 1rem;
+}
+/*finish posts*/
+
+/*start post*/
+.post h1 {
 	font-size: 25px;
 }
-/*end post */
-
-/*start footnotes */
-.footnotes ol {
-	padding:0;
-}
-
-.footnotes p {
-	display:inline;
-}
-/*end footnotes */
+/*finish post*/

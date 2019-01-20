@@ -1,31 +1,31 @@
+- title      : Kernel Projection Inverse Reinforcement Learning
+  url        : https://github.com/mrucker/kpirl-kla
+  description: A non-linear inverse reinforcement learning algorithm for large states spaces
+  position   : 1
+
+- title      : Kernel Lookup Approximation
+  url        : https://github.com/mrucker/kpirl-kla
+  description: A non-linear reinforcement learning algorithm for large state spaces
+  position   : 2
+
 - title      : Master's Thesis
   url        : https://thesis.markrucker.net
-  description: Researching how to improve task based mouse control [due Aug 2018]
-  position   : 1
+  description: Researching how to improve task based mouse control 
+  position   : 3
 
 - title      : DSI Fellowship
   url        : https://dsi.markrucker.net
-  description: Researching the ethics of recommender algorithms [due Aug 2018]
-  position   : 2
+  description: Researching the ethics of recommender algorithms
+  position   : 4
 
 - title      : This Website
   url        : https://github.com/mrucker/markrucker.net
   description: The Jekyll fragments that create this website
-  position   : 3
+  position   : 5
 
 - title      : Rucker.NET 
   url        : https://github.com/mrucker/Rucker.NET
   description: A collection of libraries to work with large data sets 
-  position   : 4
-
-- title      : Studies.NET
-  url        : https://github.com/mrucker/Studies.NET
-  description: A collection of applications examining .NET features
-  position   : 5
-
-- title      : Scriptings 
-  url        : https://github.com/mrucker/Scriptings
-  description: A collection of scripts written for Windows and Linux
   position   : 6
 
 - title      : Capacity 2011

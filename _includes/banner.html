@@ -1,0 +1,17 @@
+<header>
+    <h1>{{site.title}}</h1>
+    <p>{{site.description}}</p>
+
+    <nav role="navigation">
+        <div class="row">
+            {% assign pages = site.pages | sort: 'nav_index' %}
+            {% for page in pages %}
+                {% if page.nav_index %}
+                    <div class="col-auto">
+                        <a href="{{page.permalink}}">{{page.title}}</a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </nav>
+</header>

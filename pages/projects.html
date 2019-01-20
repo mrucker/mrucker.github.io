@@ -1,0 +1,16 @@
+---
+layout   : posts
+title    : Projects
+permalink: /projects/
+nav_index: 2
+---
+ 
+ {% assign projects = site.data.projects | sort: 'position' %} 
+ <ul>
+ {% for project in projects %}
+   <li>
+     <div><a href="{{project.url}}"}>{{project.title}}</a></div>
+     <div>{{project.description}}</div>
+   </li>
+ {% endfor %}
+ </ul>
