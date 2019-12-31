@@ -1,15 +1,20 @@
 # the site as it currently exists is using the built in syntax highlighting and no other extensions
+# For the purposes of rendering equations the math_engine below is turned off and KaTeX is included
+# as a JavaScript references in head.html for client side rendering. The syntax to being math blocks 
+# for the KaTeX renderer can be found here (https://katex.org/docs/autorender.html).
 
 # Site settings
-title: Mark Rucker
-email: rucker.mark@gmail.com
-description: "A little bit of this a little bit of that"
-baseurl: ""
-url: "http://markrucker.net"
+title          : Mark Rucker
+description    : "A little bit of this a little bit of that"
+url            : "http://markrucker.net"
+baseurl        : ""
+
+# Personal info
+email          : rucker.mark@gmail.com
 github_username: mrucker 
 
-# Build settings
-markdown: kramdown
+# Jekyll settings
 permalink: none
-
+kramdown: 
+  math_engine: #this actually needs to be blank, if you put the word 'nil' in place it breaks (Jekyll 4.0)
 
