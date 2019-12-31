@@ -1,12 +1,15 @@
+# the site as it currently exists is using the built in syntax highlighting and no other extensions
+
 # Site settings
 title: Mark Rucker
 email: rucker.mark@gmail.com
 description: "A little bit of this a little bit of that"
 baseurl: ""
 url: "http://markrucker.net"
-twitter_username: 
 github_username: mrucker 
 
 # Build settings
 markdown: kramdown
 permalink: none
+
+
