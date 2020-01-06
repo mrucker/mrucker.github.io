@@ -63,6 +63,13 @@ body header nav div a:hover {
 
 /*start post*/
 .post h1 {
-	font-size: 25px;
+      /*font-size: 25px;*/
 }
 /*finish post*/
+
+/*start bibliography*/
+ol.bibliography {
+	list-style:none;
+	padding   : 0px;
+}
+/*finish bibliography*/

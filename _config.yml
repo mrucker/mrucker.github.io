@@ -17,4 +17,9 @@ github_username: mrucker
 permalink: none
 kramdown: 
   math_engine: #this actually needs to be blank, if you put the word 'nil' in place it breaks (Jekyll 4.0)
+plugins:
+  - jekyll-scholar
 
+# sudo gem install jekyll-scholar 
+scholar:
+  style: ieee
