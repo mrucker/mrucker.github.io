@@ -8,19 +8,37 @@ In the history of probability theory there has been considerable thought devoted
 
 Each of these approaches contain many theorems with different assumptions. All of these theorems, in the classical understanding, prove that the limiting distribution (with the appropriate assumptions) is normal. (More recent work has applied central limit techniques to prove limiting distributions other than normal.) The primary difference between these approaches then is not their purpose or goal, but rather the technique used in proving the theorems. To demonstrate these differences we will consider two classic proofs for each family as presented in {% cite  gnedenko2018theory %}.
 
-# Classical Theorems
+# Theorems
 
 ## The Local Demoivre-Laplace Theorem
 
-Given an i.i.d. sequence of Bernoulli random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with \\(p\\) probability of success, \\(P_n(k) = \mathbf{P}\left(\sum_{i=1}^{n}\xi_i=k\right) \\) satisfies \\[ \lim_{n\to\infty} P_n(k) = \frac{1}{\sqrt{2\pi np(1-p)}} e^{\left(-x^2/2\right)}, \\] when \\(x\\) is bound to a finite interval and \\( x = \frac{k-np}{\sqrt{np(1-p)}} \\).
+Given an i.i.d. sequence of Bernoulli random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with \\(p\\) probability of success, \\(P_n(k) = \mathbf{P}\left(\sum_{i=1}^{n}\xi_i=k\right) \\) satisfies \\[ \lim_{n\to\infty} P_n(k) = \frac{1}{\sqrt{2\pi np(1-p)}} e^{\left(-x^2/2\right)}, \\] when \\( x = \frac{k-np}{\sqrt{np(1-p)}} \\) is bound to a finite interval.
 
 ## Lindeberg's Central Limit Theorem
 
-Given a sequence of random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with finite variance and mean, \\(P_n(k) = \mathbf{P}\left(\frac{1}{\sigma}\sum_{i=1}^n\(\xi_i -\mathbf{E}\xi_i) = k \right) \\) satisfies \\[\lim_{n\to\infty} P_n(k) = \frac{1}{\sqrt{2\pi}} e^{\left(-k^2/2\right)}, \\] when \\( \lim_{n\to\infty}\frac{1}{\sigma^2}\sum_{i=1}^n\mathbf{E}\left[(\xi_i - \mathbf{E}\xi_i) \mathbf{1}\_{\vert\xi_i-\mathbf{E}\xi_i\vert > \tau\sigma} \right] \\), \\(\sigma^2=\mathbf{Var}(\sum_{i=1}^n\xi_i) \\) and \\(\tau > 0\\).
+Given a sequence of mutually independent random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with finite mean and variance then \\[\lim_{n\to\infty} \mathbf{P}\left(\frac{1}{\sigma}\sum_{i=1}^n\(\xi_i -\mathbf{E}\xi_i) < k \right) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{k} e^{\left(-x^2/2\right)}dx, \\] when \\( \\lim_{n\to\infty}\frac{1}{\sigma^2}\sum_{i=1}^n\mathbf{E}\left[(\xi_i - \mathbf{E}\xi_i)^2 \mathbf{1}\_{\vert\xi_i-\mathbf{E}\xi_i\vert > \tau\sigma} \right] = 0\\), \\(\sigma^2=\mathbf{Var}(\sum_{i=1}^n\xi_i) \\) and \\(\tau > 0\\).
 
+# Analysis
 
-# The Difference
+## Comparing The Two Approaches
 
-We can see above that the difference in the two approaches is simply how the distribution is centered and normalized. In the case of the central limit theorem all the random variables are centered to their mean and normed by the variance before the theorem begins. In the local theorem none of the variables are modified. Instead the variable \\(k\\) is modified into the quantity \\(x\\).
+We can see above that the difference in the two approaches is simply how the distribution is centered and normalized. In the local theorem \\(k\\) is centered and normed, and the random variables are left unchanged. In the central limit theorem the random variables are centered and normed and \\(k\\) is left unchanged. This difference is simply a techical matter with very little effect on the implications of the theorems. For this reason both approaches are often discussed as if they are both part of the same school of thought.
+
+## Understanding The Lindberg Condition
+In Lindberg's Central Limit Theorem above there is an important condition that deserves special attention, \\[ \lim_{n\to\infty}\frac{1}{\sigma^2}\sum_{i=1}^n\mathbf{E}\left[(\xi_i - \mathbf{E}\xi_i)^2 \mathbf{1}\_{\vert\xi_i-\mathbf{E}\xi_i\vert > \tau\sigma} \right] = 0\ \text{for}\ \tau > 0. \\]
+
+This condition is known as Lindberg's Condition, and it has been shown to be the sufficient condition for the sum of a sequence of mutually independent random variables with finite mean and variance to converge to a normal distribution. To explain this condition {% cite gnedenko2018theory %} proves \\[ \mathbf{P}\left(\max_{1 \le i \le n} \vert \xi_i - \mathbf{E}\xi_i \vert \ge \tau\sigma \right) \le \frac{1}{\tau^2\sigma^2}\sum_{i=1}^n\mathbf{E}\left[(\xi_i - \mathbf{E}\xi_i)^2 \mathbf{1}\_{\vert\xi_i-\mathbf{E}\xi_i\vert > \tau\sigma} \right]\ \text{for}\ \tau > 0. \\]
+
+For any sequence of random variables satisfying the Lindberg Condition the right side of this inequality will go to 0 as \\(n \to \infty\\), implying that the sequence will be contained within the interval \\((-\tau\sigma, \tau\sigma)\\) with probability 1 as \\(n \to \infty\\). That is, that no single random variable will dominate in the limit. 
+
+## Remembering Finite Mean and Variance
+
+Regarding central limit theorems it should be emphasized that they can only be applied to random variables with well-defined, finite means and variances. Otherwise it would not be possible to center and norm each random variable as the theorems assume can be done. For example, central limit theorems cannot be applied to a sequence of Cauchy random variables (Cauchy random variables do not have a well-defined mean or variance). In fact, it can be shown that the limiting distribution for the sum of a sequence of Cauchy random variables is itself a Cauchy random variable rather than a normal distribution.
+
+## Estimating A Random Variable's Mean
+
+One important application of central limit theorems is estimating the mean of a random variable from i.i.d. samples. To show this we require the following claim regarding normal distributions: given a random variable \\(X \sim{} \mathcal{N}(\mu, \sigma^2) \\) we also have \\( aX \sim{} \mathcal{N}(a\mu, a^2\sigma^2)\ \forall a \in \mathbb{R} \\).
+
+Now, consider an i.i.d sequence of random variable \\(\xi_1, \xi_2, \ldots, \xi_n \\) satisfying the Lindberg Condition and with finite \\(\mathbf{E}\xi = \mu\\) and \\(\mathbf{Var}(\xi) = \sigma^2\\). By the Lindberg Central Limit Theorem we have \\(\lim_{n\to\infty}\sum_{i=1}^n \xi_i = \mathcal{N}(n\mu,n\sigma^2)\\). Combining this result with the above claim about normal distributions we can get \\[\lim_{n\to\infty}\sum_{i=1}^n \frac{1}{n}\xi_i = \mathcal{N}(\mu,\sigma^2/n).\\]
 
 {% bibliography --cited %}
