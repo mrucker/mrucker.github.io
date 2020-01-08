@@ -1,4 +1,4 @@
 ---
-layout: master
+layout: root
 permalink: /
 ---

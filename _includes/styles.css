@@ -8,116 +8,105 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*start header */
-body header p {
+/*start banner */
+#banner h1 { 
+	font-size: 2.5rem;
+	padding  : 0 0 0 0;
+	margin   : 1rem 0 0 0;
+}
+
+#banner h2 {
+	font-size    : 1rem;
 	margin-bottom: 5px;
 }
 
-body header h1 { 
-	font-size  : 40px;
-	font-weight: normal;
-	padding    : 0px;
-	margin     : 0px;
-	margin-top : 1rem;
-}
-
-body header nav {
+#banner nav {
 	border-bottom: 1px solid #ccc; 
 	border-top   : 1px solid #ccc;
+	padding      : 8px 0 8px 0;
 }
 
-body header nav .row {
-	margin-top   : 8px;
-	margin-bottom: 8px;
-}
-
-body header nav div a {
+#banner nav a {
 	text-decoration: none;
 	font-weight    : bold;
 	color          : #000;
 }
 
-body header nav div a:hover {
+#banner nav a:hover {
 	color           : #c00;
 	background-color: #fff; 
 }
-/*finish header*/
+/*finish banner*/
 
 /*start content*/
 #content {
 	margin-left: 1rem;
-	margin-top: 1rem;
+	margin-top : 1rem;
 }
 /*finish content*/
 
-/*start posts*/
-.posts ul {
+/*start main*/
+#main ul {
 	list-style: none;
 	padding   : 0px;
 }
 
-.posts ul li {
+#main ul li {
 	margin-bottom: 1rem;
 }
-/*finish posts*/
+/*finish main*/
 
 /*start post*/
-.post .body h1,
-.post .body h2, 
-.post .body h3 { 
-	margin: 0;
-}
-
-.post {
-	font-size:0.875em;
+#post {
+	font-size:0.875rem;
 	max-width:700px;
 }
 
-.post .title {
+#post * {
+	margin : 0;
+	padding: 0;
+}
+
+#post .title {
 	margin: 0 0 10px 0;
 }
 
-.post .title h1 {
-	font-size:30px;
+#post .title h1 {
+	font-size  :1.9rem;
 	font-weight:bold;
-	margin: 0;
 }
 
-.post .title h2 {
-	font-size:11px;
-	margin: 0;
+#post .title h2 {
+	font-size:0.75rem;
 }
 
-.post .body ol, 
-.post .body ul {
-	margin: 0.3em 0 0 1.6em;
-	padding: 0px;
+#post .body h1 {
+	font-weight  : bold;
+	font-size    : 1.25rem;
+	margin       : 30px 0px 0px 0px;
+	border-bottom: 1px solid #a2a9b1;
 }
 
-.post .body p {
-	margin:0.5em 0px;
-}
-
-.post .body h1 {
-	font-weight: bold;
-	font-size: 20px;
-	margin: 30px 0px 0px 0px;
-	border-bottom:1px solid #a2a9b1;
-}
-
-.post .body h2 {
-	/*font-weight: bold;*/
+#post .body h2 {
 	font-style: italic;
-	font-size: 18px;
-	margin: 15px 0px 0px 0px;
+	font-size : 1.1rem;
+	margin    : 15px 0px 0px 0px;
 }
 
-.post .body h3 {
-	font-size: 18px;
+#post .body h3 {
+	font-size: 1rem;
 }
 
-.post .body .bib ol {
+#post .body p {
+	margin: 0.5em 0px;
+}
+
+#post .body ol, 
+#post .body ul {
+	margin: 0.3em 0 0 1.6em;
+}
+
+#post .bib ol {
 	list-style:none;
-	/*padding   : 0px;*/
 }
 /*finish post*/

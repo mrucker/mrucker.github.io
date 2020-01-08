@@ -1,14 +1,14 @@
 ---
-layout: master
+layout: root
 ---
-<div class="post">
+<div id="post">
 	<div class="title">
 		<h1> {{ page.title }} </h1>
 		<h2> posted on {{ page.date | date_to_string: "ordinal", "US" }} </h2>
 	</div>
 	<div class="body">
-		{{ content }}	
-		
+		{{ content }}
+
 		<div class="bib">
 			{% capture bib_count %}{% bibliography_count --cited %}{% endcapture %}
 			{% if bib_count != "0" %} <h1> References </h1> {% endif %}
