@@ -1,22 +1,19 @@
 ---
 layout: post
 ---
-In the history of probability theory there has been considerable thought devoted to describing the distribution for infinite sums of random variables. In this effort two classic approaches have been developed:
+In the history of probability theory there has been considerable thought devoted to describing the distribution for infinite sums of random variables. In this effort two classic approaches have been developed: (1) Local Limit Theorems and (2) Central Limit Theorems.
 
-1. Local Limit Theorems
-2. Central Limit Theorems
-
-Each of these approaches contain many theorems with different assumptions. All of these theorems, in the classical understanding, prove that the limiting distribution (with the appropriate assumptions) is normal. (More recent work has applied central limit techniques to prove limiting distributions other than normal.) The primary difference between these approaches then is not their purpose or goal, but rather the technique used in proving the theorems. To demonstrate these differences we will consider two classic proofs for each family as presented in {% cite  gnedenko2018theory %}.
+Each of these approaches contain many theorems. All of these theorems, in the classical understanding, prove, under various assumptions, that the limiting distribution of sums of random variables is normal. (It's worth noting that more recent work has applied central limit techniques to prove limiting distributions other than normal, but these are not the classical results.). To begin to understand these theorems we will begin by stating two classic theorems as described in {% cite gnedenko2018theory %}.
 
 # Theorems
 
 ## The Local Demoivre-Laplace Theorem
 
-Given an i.i.d. sequence of Bernoulli random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with \\(p\\) probability of success, \\(P_n(k) = \mathbf{P}\left(\sum_{i=1}^{n}\xi_i=k\right) \\) satisfies \\[ \lim_{n\to\infty} P_n(k) = \frac{1}{\sqrt{2\pi np(1-p)}} e^{\left(-x^2/2\right)}, \\] when \\( x = \frac{k-np}{\sqrt{np(1-p)}} \\) is bound to a finite interval.
+Given an i.i.d. sequence of Bernoulli random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with \\(p\\) probability of success the \\[ \lim_{n\to\infty} \mathbf{P}\left(\sum_{i=1}^n\xi_i=k\right) = \frac{1}{\sqrt{2\pi np(1-p)}} e^{\left(-x^2/2\right)}, \\] when \\( x = \frac{k-np}{\sqrt{np(1-p)}} \\) and it is bound to a finite interval.
 
 ## Lindeberg's Central Limit Theorem
 
-Given a sequence of mutually independent random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with finite mean and variance then \\[\lim_{n\to\infty} \mathbf{P}\left(\frac{1}{\sigma}\sum_{i=1}^n\(\xi_i -\mathbf{E}\xi_i) < k \right) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{k} e^{\left(-x^2/2\right)}dx, \\] when \\( \\lim_{n\to\infty}\frac{1}{\sigma^2}\sum_{i=1}^n\mathbf{E}\left[(\xi_i - \mathbf{E}\xi_i)^2 \mathbf{1}\_{\vert\xi_i-\mathbf{E}\xi_i\vert > \tau\sigma} \right] = 0\\), \\(\sigma^2=\mathbf{Var}(\sum_{i=1}^n\xi_i) \\) and \\(\tau > 0\\).
+Given a sequence of mutually independent random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with finite \\(\mathbf{E}\xi\\) and \\(\mathbf{Var}(\xi)\\) the \\[\lim_{n\to\infty} \mathbf{P}\left(\frac{1}{\sigma}\sum_{i=1}^n\(\xi_i -\mathbf{E}\xi_i) < k \right) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{k} e^{\left(-x^2/2\right)}dx, \\] when \\( \\lim_{n\to\infty}\frac{1}{\sigma^2}\sum_{i=1}^n\mathbf{E}\left[(\xi_i - \mathbf{E}\xi_i)^2 \mathbf{1}\_{\vert\xi_i-\mathbf{E}\xi_i\vert > \tau\sigma} \right] = 0\\), \\(\sigma^2=\mathbf{Var}(\sum_{i=1}^n\xi_i) \\) and \\(\tau > 0\\).
 
 # Analysis
 
@@ -39,6 +36,4 @@ Regarding central limit theorems it should be emphasized that they can only be a
 
 One important application of central limit theorems is estimating the mean of a random variable from i.i.d. samples. To show this we require the following claim regarding normal distributions: given a random variable \\(X \sim{} \mathcal{N}(\mu, \sigma^2) \\) we also have \\( aX \sim{} \mathcal{N}(a\mu, a^2\sigma^2)\ \forall a \in \mathbb{R} \\).
 
-Now, consider an i.i.d sequence of random variable \\(\xi_1, \xi_2, \ldots, \xi_n \\) satisfying the Lindberg Condition and with finite \\(\mathbf{E}\xi = \mu\\) and \\(\mathbf{Var}(\xi) = \sigma^2\\). By the Lindberg Central Limit Theorem we have \\(\lim_{n\to\infty}\sum_{i=1}^n \xi_i = \mathcal{N}(n\mu,n\sigma^2)\\). Combining this result with the above claim about normal distributions we can get \\[\lim_{n\to\infty}\sum_{i=1}^n \frac{1}{n}\xi_i = \mathcal{N}(\mu,\sigma^2/n).\\]
-
-{% bibliography --cited %}
+Now, consider an i.i.d. sequence of random variable \\(\xi_1, \xi_2, \ldots, \xi_n \\) satisfying the Lindberg Condition and with finite \\(\mathbf{E}\xi = \mu\\) and \\(\mathbf{Var}(\xi) = \sigma^2\\). By the Lindberg Central Limit Theorem we have \\(\lim_{n\to\infty}\sum_{i=1}^n \xi_i = \mathcal{N}(n\mu,n\sigma^2)\\). Combining this result with the above claim about normal distributions we can get \\[\lim_{n\to\infty}\sum_{i=1}^n \frac{1}{n}\xi_i = \mathcal{N}(\mu,\sigma^2/n).\\]

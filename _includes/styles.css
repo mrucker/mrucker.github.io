@@ -62,14 +62,62 @@ body header nav div a:hover {
 /*finish posts*/
 
 /*start post*/
-.post h1 {
-      /*font-size: 25px;*/
+.post .body h1,
+.post .body h2, 
+.post .body h3 { 
+	margin: 0;
+}
+
+.post {
+	font-size:0.875em;
+	max-width:700px;
+}
+
+.post .title {
+	margin: 0 0 10px 0;
+}
+
+.post .title h1 {
+	font-size:30px;
+	font-weight:bold;
+	margin: 0;
+}
+
+.post .title h2 {
+	font-size:11px;
+	margin: 0;
+}
+
+.post .body ol, 
+.post .body ul {
+	margin: 0.3em 0 0 1.6em;
+	padding: 0px;
+}
+
+.post .body p {
+	margin:0.5em 0px;
+}
+
+.post .body h1 {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 30px 0px 0px 0px;
+	border-bottom:1px solid #a2a9b1;
+}
+
+.post .body h2 {
+	/*font-weight: bold;*/
+	font-style: italic;
+	font-size: 18px;
+	margin: 15px 0px 0px 0px;
+}
+
+.post .body h3 {
+	font-size: 18px;
+}
+
+.post .body .bib ol {
+	list-style:none;
+	/*padding   : 0px;*/
 }
 /*finish post*/
-
-/*start bibliography*/
-ol.bibliography {
-	list-style:none;
-	padding   : 0px;
-}
-/*finish bibliography*/

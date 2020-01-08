@@ -17,4 +17,4 @@ The second thing I find interesting about this equation is that we can add speci
 
 And that's it. We've just explained how a lot of machine learning algorithms work with only the ideas of results, action, inputs and chance. No need for "neural nets" or "deep learning" or "oracles". Still, those words have some meaning. In the case of machine learning they refer to the different kinds of "actions". So the equation for a Neural Net would look like this, Results = Neural-Net(Inputs) + Chance. While the equation for a Deep Learning algorithm would be Results = Deep-Learning(Inputs) + Chance.
 
-(For even more information than is contained here I recommend chapter 2 of [The Elements of Statistical Learning](://web.stanford.edu/~hastie/ElemStatLearn/)
+(For even more information than is contained here I recommend chapter 2 of [The Elements of Statistical Learning](://web.stanford.edu/~hastie/ElemStatLearn/))
