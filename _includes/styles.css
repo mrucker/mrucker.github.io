@@ -98,15 +98,19 @@ body {
 }
 
 #post .body p {
-	margin: 0.5em 0px;
+	margin: 0.5rem 0px;
 }
 
 #post .body ol, 
 #post .body ul {
-	margin: 0.3em 0 0 1.6em;
+	margin: 0.3rem 0 0 1.6em;
 }
 
 #post .bib ol {
 	list-style:none;
+}
+
+#post .katex-display {
+	margin: 0.75rem 0;
 }
 /*finish post*/

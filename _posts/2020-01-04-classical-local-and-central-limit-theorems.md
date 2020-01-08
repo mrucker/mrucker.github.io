@@ -9,11 +9,11 @@ Each of these approaches contain many theorems. All of these theorems, in the cl
 
 ## The Local Demoivre-Laplace Theorem
 
-Given an i.i.d. sequence of Bernoulli random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with \\(p\\) probability of success the \\[ \lim_{n\to\infty} \mathbf{P}\left(\sum_{i=1}^n\xi_i=k\right) = \frac{1}{\sqrt{2\pi np(1-p)}} e^{\left(-x^2/2\right)}, \\] when \\( x = \frac{k-np}{\sqrt{np(1-p)}} \\) and it is bound to a finite interval.
+Given an i.i.d. sequence of Bernoulli random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with \\(p\\) probability of success \\[ \lim_{n\to\infty} \mathbf{P}\left(\sum_{i=1}^n\xi_i=k\right) = \frac{1}{\sqrt{2\pi np(1-p)}} e^{\left(-x^2/2\right)}, \\] when \\( x = \frac{k-np}{\sqrt{np(1-p)}} \\) and it is bound to a finite interval.
 
 ## Lindeberg's Central Limit Theorem
 
-Given a sequence of mutually independent random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with finite \\(\mathbf{E}\xi\\) and \\(\mathbf{Var}(\xi)\\) the \\[\lim_{n\to\infty} \mathbf{P}\left(\frac{1}{\sigma}\sum_{i=1}^n\(\xi_i -\mathbf{E}\xi_i) < k \right) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{k} e^{\left(-x^2/2\right)}dx, \\] when \\( \\lim_{n\to\infty}\frac{1}{\sigma^2}\sum_{i=1}^n\mathbf{E}\left[(\xi_i - \mathbf{E}\xi_i)^2 \mathbf{1}\_{\vert\xi_i-\mathbf{E}\xi_i\vert > \tau\sigma} \right] = 0\\), \\(\sigma^2=\mathbf{Var}(\sum_{i=1}^n\xi_i) \\) and \\(\tau > 0\\).
+Given a sequence of mutually independent random variables \\(\xi_1, \xi_2, \ldots,\xi_n\\) with finite \\(\mathbf{E}\xi\\) and \\(\mathbf{Var}(\xi)\\) \\[\lim_{n\to\infty} \mathbf{P}\left(\frac{1}{\sigma}\sum_{i=1}^n\(\xi_i -\mathbf{E}\xi_i) < k \right) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{k} e^{\left(-x^2/2\right)}dx, \\] when \\( \\lim_{n\to\infty}\frac{1}{\sigma^2}\sum_{i=1}^n\mathbf{E}\left[(\xi_i - \mathbf{E}\xi_i)^2 \mathbf{1}\_{\vert\xi_i-\mathbf{E}\xi_i\vert > \tau\sigma} \right] = 0\\), \\(\sigma^2=\mathbf{Var}(\sum_{i=1}^n\xi_i) \\) and \\(\tau > 0\\).
 
 # Analysis
 
