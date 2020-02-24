@@ -110,6 +110,10 @@ body {
 	margin: 0.3rem 0 0 1.6em;
 }
 
+#post .body .bibliography {
+	margin: 0.5rem 0 0 0;
+}
+
 #post .body .katex-display {
 	margin: 0.75rem 0;
 }
