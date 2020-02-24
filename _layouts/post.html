@@ -9,10 +9,8 @@ layout: root
 	<div class="body">
 		{{ content }}
 
-		<div class="bib">
-			{% capture bib_count %}{% bibliography_count --cited %}{% endcapture %}
-			{% if bib_count != "0" %} <h1> References </h1> {% endif %}
-			{% bibliography --cited %}
-		</div>
+		{% capture bib_count %}{% bibliography_count --cited %}{% endcapture %}
+		{% if bib_count != "0" %} <h1> References </h1> {% endif %}
+		{% bibliography --cited %}
 	</div>
 </div>

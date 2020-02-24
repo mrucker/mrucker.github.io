@@ -1,12 +1,12 @@
 ---
-layout   : main
+layout   : root
 title    : Projects
 permalink: /projects/
 nav_index: 2
 ---
  
  {% assign projects = site.data.projects | sort: 'position' %} 
- <ul>
+ <ul class="top-list">
  {% for project in projects %}
    <li>
      <div><a href="{{project.url}}"}>{{project.title}}</a></div>

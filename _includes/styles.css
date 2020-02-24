@@ -45,16 +45,20 @@ body {
 }
 /*finish content*/
 
-/*start main*/
-#main ul {
-	list-style: none;
-	padding   : 0px;
+/*start misc*/
+.top-list {
+	list-style-type: none;
+	padding        : 0px;
 }
 
-#main ul li {
+.top-list li {
 	margin-bottom: 1rem;
 }
-/*finish main*/
+
+.bibliography {
+	list-style-type: none;
+}
+/*finish misc*/
 
 /*start post*/
 #post {
@@ -106,11 +110,7 @@ body {
 	margin: 0.3rem 0 0 1.6em;
 }
 
-#post .bib ol {
-	list-style:none;
-}
-
-#post .katex-display {
+#post .body .katex-display {
 	margin: 0.75rem 0;
 }
 /*finish post*/

@@ -22,4 +22,4 @@ plugins:
 
 # sudo gem install jekyll-scholar 
 scholar:
-  style: ieee
+  style: ./_bibliography/my-ieee #I've added a space after the number in the references
