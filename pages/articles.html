@@ -5,7 +5,7 @@ permalink: /articles/
 nav_index: 3
 ---
  
- {% assign publications = site.data.publications | sort: 'position' %} 
+ {% assign publications = site.data.publications | sort: 'position' | reverse %} 
  <ul class="top-list">
  {% for publication in publications %}
    <li>

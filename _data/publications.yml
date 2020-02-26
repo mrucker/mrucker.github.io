@@ -1,7 +1,11 @@
-- title      : (2017) Agent-based model construction using inverse reinforcement learning
-  url        : https://ieeexplore.ieee.org/abstract/document/8247872
-  position   : 1
+- title    : (2020) Human apprenticeship learning via kernel-based inverse reinforcement learning
+  url      : https://arxiv.org/abs/2002.10904
+  position : 3
+  
+- title    : (2017) Agent-based model construction using inverse reinforcement learning
+  url      : https://ieeexplore.ieee.org/abstract/document/8247872
+  position : 2
 
-- title      : (2016) Discovery of behavioral markers of social anxiety from smartphone sensor data
-  url        : https://dl.acm.org/citation.cfm?id=3089343
-  position   : 2
+- title    : (2016) Discovery of behavioral markers of social anxiety from smartphone sensor data
+  url      : https://dl.acm.org/citation.cfm?id=3089343
+  position : 1
