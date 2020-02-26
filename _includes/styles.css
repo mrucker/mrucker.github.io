@@ -42,6 +42,7 @@ body {
 #content {
 	margin-left: 1rem;
 	margin-top : 1rem;
+	max-width:700px;
 }
 /*finish content*/
 
@@ -60,10 +61,30 @@ body {
 }
 /*finish misc*/
 
+/*start signature*/
+.signature p {
+	margin: 0;
+}
+
+.signature .text {
+	font-style:italic;
+}
+
+.signature .name {
+	font-weight:bold;
+}
+
+.signature svg {
+	width: 1.25em;
+	margin: 0 .2em 0 .2em;
+	color:#444;
+}
+
+/*finish signature*/
+
 /*start post*/
 #post {
 	font-size:0.875rem;
-	max-width:700px;
 }
 
 #post * {
