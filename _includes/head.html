@@ -23,5 +23,15 @@
     <!--responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Mark Rucker</title>
+    {% if page.title %}
+    	<title>{{page.title}} - Mark Rucker</title>
+    {% else %}
+    	<title>Mark Rucker</title>
+    {% endif %}
+
+    {% if page.description %}
+    	<meta name="description" content="{{page.description|strip_html|normalize_whitespace|truncate: 160|escape }}"/>
+    {% elsif page.excerpt %}
+    	<meta name="description" content="{{page.excerpt|strip_html|normalize_whitespace|truncate: 160|escape }}"/>
+    {% endif %}
 </head>
