@@ -55,10 +55,6 @@ body {
 .top-list li {
 	margin-bottom: 1rem;
 }
-
-.bibliography {
-	list-style-type: none;
-}
 /*finish misc*/
 
 /*start signature*/
@@ -79,7 +75,6 @@ body {
 	margin: 0 .2em 0 .2em;
 	color:#444;
 }
-
 /*finish signature*/
 
 /*start post*/
@@ -128,14 +123,36 @@ body {
 
 #post .body ol, 
 #post .body ul {
-	margin: 0.3rem 0 0 1.6em;
+	margin: 0.3rem 0 0 1.6rem;
+}
+
+#post .body li {
+	margin: 0 0 .15rem
+}
+
+#post .body .katex-display {
+	margin: 0.75rem 0;
 }
 
 #post .body .bibliography {
 	margin: 0.5rem 0 0 0;
 }
 
-#post .body .katex-display {
-	margin: 0.75rem 0;
+#post .body .bibliography {
+	list-style: none;
+	counter-reset: index;
+}
+
+#post .body .bibliography li {
+	counter-increment: index;
+	position: relative;
+	margin-left: .5rem;
+	padding-left: 1.75rem;
+}
+
+#post .body .bibliography li::before {
+	content: "[" counter(index) "]";
+	position: absolute;
+	left: -0rem;
 }
 /*finish post*/
