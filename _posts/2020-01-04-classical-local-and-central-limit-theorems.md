@@ -3,7 +3,7 @@ layout: post
 ---
 In the history of probability theory there has been considerable thought devoted to describing the distribution for infinite sums of random variables. In this effort two classic approaches have been developed: (1) Local Limit Theorems and (2) Central Limit Theorems.
 
-Each of these approaches contain many theorems. All of these theorems, in the classical understanding, prove, under various assumptions, that the limiting distribution of sums of random variables is normal. (It's worth noting that more recent work has applied central limit techniques to prove limiting distributions other than normal, but these are not the classical results.). To begin to understand these theorems we will begin by stating two classic theorems as described in {% cite gnedenko2018theory %}.
+Each of these approaches contain many theorems. All of these theorems, in the classical understanding, prove, under various assumptions, that the limiting distribution of sums of random variables is normal. (It's worth noting that more recent work has applied central limit techniques to prove limiting distributions other than normal, but these are not the classical results). To begin to understand these theorems we will first state two theorems as presented in {% cite gnedenko2018theory %}.
 
 # Theorems
 
