@@ -5,7 +5,7 @@ Set theory is ubiquitous in modern mathematics. As such, over the course of my s
 
 # Interpretation
 
-Sets are often described as collections of objects. However, such a description, while helpful for intuitive understanding, isn't strictly necessary for the theory to hold. Rather, as is the case with many abstract mathematical theories, the results and contributions of set theory have been found to be true many families of items (e.g., boolean-valued modelsrather than collections of objects).
+Sets are often described as collections of objects. However, such a description, while helpful for intuitive understanding, isn't strictly necessary for the theory. Rather, as is the case with many abstract mathematical theories, the theory supports many concrete interpretations (e.g., boolean-valued functions rather than collections of objects).
 
 # History 
 
