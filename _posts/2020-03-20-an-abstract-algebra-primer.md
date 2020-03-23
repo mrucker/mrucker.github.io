@@ -10,7 +10,7 @@ According to {% cite kramer1982nature %} abstract algebra is "abstract" not beca
 
 Even though this post is primarily concerned with abstract algebra, we will begin by defining some different uses of the word algebra in an effort to give some more clarity to this post and also help the reader when consuming other content that may not clearly define what is meant by "algebra".
 
-In abstract algebra the term "algebra" seems to refer to either an algebreic structure with a formal name that includes the term algebra (e.g., see the use of "algebra" in reference to a boolean algebra in {% cite halmos1974measure %}) or to a vector space \\(V\\) over a field \\(F\\) with the addition of a biliniar operation \\( * : V \times V \to V\\) {% cite hazewinkel2004algebras %}. Other algebraic structures (e.g., magmas, groups, rings and fields) do not appear to be ever referred to as "algebras".
+In abstract algebra the term "algebra" seems to refer to either an algebreic structure with a formal name that includes the term algebra (e.g., see the use of "algebra" in reference to a boolean algebra in {% cite halmos1974measure %}) or to a vector space \\(V\\) over a field \\(F\\) with the addition of a biliniar operation \\( * : V \times V \to V\\) {% cite hazewinkel2004algebras %}. Other algebraic structures (e.g., magmas, groups, rings and fields) do not ever appear to be referred to as "algebras".
 
 In informal usage the term algebra tends to denote specific models of algebraic structures. For example, matrix algebra often refers to a ring whose domain is a set of matrices and whose operations are matrix addition and matrix multiplication. Classical algebra (i.e., equations with real valued variables) generally refers to a field with \\(\Reals\\) for a domain. And boolean algebra is a more full featured ring with \\(\lbrace\,1,0\,\rbrace\\) for a domain and for operations has "exclusive or" and "and". It should be noted that this is all simply my interpretation. None of the above connections are actually formally defined anywhere.
 
@@ -26,7 +26,7 @@ This search came to an end for some when the door cracked open by imaginary numb
 
 At almost the same time that Hamilton was developing quaternions George Boole was developing boolean algebra, another new computational system with new rules. Boole published his work in 1847 {% cite pinter2010book %}. With the dual developments of quaternions and boolean algebra it became clear there was much work to do in exploring and defining new computational systems, and abstract algebra as we know it today was born.
 
-# Operations
+# Defining Operations
 
 The basic building blocks of algebraic structures are operations. Operations are defined via axioms that describe how the operations interact. In what follows a few of the most common operation axioms are listed. Given some set \\(A\\) and two binary operation \\(\diamond\text{ and }\rhd\\):
  * \\(\diamond\\) has closure on \\(A\\) if \\(\forall x,y \in A\\):
@@ -39,7 +39,7 @@ The basic building blocks of algebraic structures are operations. Operations are
  * \\(\diamond\\) is commutative if \\(\forall x,y,z \in A\\): 
    * \\(y \diamond z = z \diamond y\\)
 
-# Sets
+# Defining Sets
 
 Along with the operation axioms it is also possible for an algebraic structure to have axioms describing its domain. These axioms are often in reference to the structure's operations. Two common examples follow. Given some set \\(A\\) and two binary operation \\(\diamond\text{ and }\rhd\\):
  * \\(A\\) contains an identity element \\(i\\) for \\(\diamond\\) if \\(\forall x \in A \\):
@@ -47,7 +47,7 @@ Along with the operation axioms it is also possible for an algebraic structure t
  * \\(A\\) contains an inverse element for \\(\diamond\\) if \\(\forall x,y \in A,\ \exists y^- \in A\\) s.t.:
    * \\( x \diamond y \diamond y^- = x \\)
 
-# Structures
+# Defining Structures
 
 With common operation and set axioms defined above it becomes possible to define some fundamental structures in abstract algebra. Naming these structures, though it means having to learn them, makes communicating about them easier. Perhaps four of the more important ones are:
  * Magma: 
