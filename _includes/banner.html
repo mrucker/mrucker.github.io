@@ -1,16 +1,13 @@
 <header id="banner">
-    <h1>{{site.title}}</h1>
+    <h1><a href="/">{{site.title}}</a></h1>
     <h2>{{site.description}}</h2>
 
     <nav role="navigation">
         <div class="row">
-            {% assign pages = site.pages | sort: 'nav_index' %}
-            {% for page in pages %}
-                {% if page.nav_index %}
-                    <div class="col-auto">
-                        <a href="{{page.permalink}}">{{page.title}}</a>
-                    </div>
-                {% endif %}
+            {% for area in site.areas %}
+                <div class="col-auto">
+		    <a href="{{area.url}}">{{ area.url | replace: "/","" | capitalize }}</a>
+                </div>
             {% endfor %}
         </div>
     </nav>

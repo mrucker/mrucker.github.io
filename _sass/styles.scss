@@ -9,10 +9,19 @@ body {
 }
 
 /*start banner */
+#banner a {
+	text-decoration: none;
+	color          : #000;
+}
+
 #banner h1 { 
 	font-size: 2.5rem;
 	padding  : 0 0 0 0;
 	margin   : 1rem 0 0 0;
+}
+
+#banner h1 a:hover {
+	color : #000
 }
 
 #banner h2 {
@@ -24,17 +33,11 @@ body {
 	border-bottom: 1px solid #ccc; 
 	border-top   : 1px solid #ccc;
 	padding      : 8px 0 8px 0;
-}
-
-#banner nav a {
-	text-decoration: none;
-	font-weight    : bold;
-	color          : #000;
+	font-weight  : bold;
 }
 
 #banner nav a:hover {
-	color           : #c00;
-	background-color: #fff; 
+	color : #c00;
 }
 /*finish banner*/
 

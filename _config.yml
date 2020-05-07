@@ -6,9 +6,42 @@
 # Site settings
 title          : Mark Rucker
 description    : "A little bit of this a little bit of that"
-url            : "http://markrucker.net"
-baseurl        : ""
+url            : "https://markrucker.net"
 exclude        : ["README.md"]
+
+# Collections
+collections :
+  posts:
+    permalink: /musings/:title:output_ext
+  areas:
+    output: true
+    permalink: /:name/
+    order:
+      - info.html
+      - projects.html
+      - articles.html
+      - musings.html
+
+# Defaults
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      layout: "root"
+  - 
+    scope:
+      path: ""
+      type: "posts"
+    values:
+       layout: "post"
+  - 
+    scope:
+      path: "assets/*"
+    values:
+      layout: "null"
+
+
 
 # Personal info
 email          : rucker.mark@gmail.com
