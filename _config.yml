@@ -8,6 +8,7 @@ title          : Mark Rucker
 description    : "A little bit of this a little bit of that"
 url            : "http://markrucker.net"
 baseurl        : ""
+exclude        : ["README.md"]
 
 # Personal info
 email          : rucker.mark@gmail.com

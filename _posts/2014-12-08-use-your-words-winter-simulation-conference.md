@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 'Use Your Words: Winter Simulation Conference'
 ---
 A few very simple definitions of common terms I learned this week
 

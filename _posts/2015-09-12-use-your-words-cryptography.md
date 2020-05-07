@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 'Use Your Words: Cryptography'
 ---
 * **Cryptography** - Algorithms used to secure information from untrusted third parties.
 

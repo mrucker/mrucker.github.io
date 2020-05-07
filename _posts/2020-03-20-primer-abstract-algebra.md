@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 'Primer: Abstract Algebra'
 ---
 
 Abstract algebra is the formal and systematic study of algebraic structures. An algebraic structure can be defined as a system made up of two components: (1) a set (often called the domain) and (2) a collection of functions mapping the set into itself (often called operations){% cite pinter2010book %}. 

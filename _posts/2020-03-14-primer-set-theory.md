@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Primer: Set Theory"
 ---
 Set theory is ubiquitous in modern mathematics. As such, over the course of my studies, I've created a complex patchwork of ideas and notation from various sources without any clear singular thought. This post is my effort to consider all these ideas at once in order to clean up inconsistencies and discover meaningful gaps.
 
