@@ -29,7 +29,7 @@ Perhaps one of the most important results in set theory is the ability to compar
 
 # Algebras
 
-Occasionally authors will talk about an *algebra of sets* or a *field of sets*. When this is done it is in reference to some set of sets which is closed under a finite number of union and negation operations. A closely related object is a \\(\sigma-algebra\\). A \\(\sigma\\)-algebra is also an *algebra of sets* but it requires closure under countably infinite unions and negations. The countably infinite condition of \\(\sigma\\)-algebras allows for the use of limits and classical analysis. Two examples of algebras are now given: (1) perhaps the simplest algebra of sets is the set \\(\lbrace\, X,\,\empty\,\rbrace\\) and (2) perhaps the most common algebra is the powerset of \\(X\\) sometimes written \\(2^X\\) in reference to interpreting each subset of \\(X\\) as a function that maps an element to either 0 or 1.
+Occasionally authors will talk about an *algebra of sets* or a *field of sets*. When this is done it is in reference to some set of sets which is closed under a finite number of union and negation operations. A closely related object is a \\(\sigma\\)-algebra. A \\(\sigma\\)-algebra is also an *algebra of sets* but it requires closure under countably infinite unions and negations. The countably infinite condition of \\(\sigma\\)-algebras allows for the use of limits and classical analysis. Two examples of algebras are now given: (1) perhaps the simplest algebra of sets is the set \\(\lbrace\, X,\,\empty\,\rbrace\\) and (2) perhaps the most common algebra is the powerset of \\(X\\) sometimes written \\(2^X\\) in reference to interpreting each subset of \\(X\\) as a function that maps an element to either 0 or 1.
 
 # Terminology
 
