@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 Somewhat basic but not used often so here is a refresher. 
 

@@ -1,5 +1,4 @@
 ---
-layout : post
 title  : The Difference Between DLL's and EXE's
 ---
 This question came up after learning that .NET projects can reference code from dll's and exe's. While .NET prompted the question the answer applies to all dll's and exe's, so .NET will be mostly left out. The goal is to provide a more detailed (and at the same time simpler) view of the Windows environment through the comparison.

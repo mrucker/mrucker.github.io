@@ -1,5 +1,4 @@
 ---
-layout: post
 sources: 
 - http://martinfowler.com/bliki/HeaderInterface.html
 - http://martinfowler.com/bliki/RoleInterface.html

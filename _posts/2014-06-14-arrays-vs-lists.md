@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 Two of the most important data structures in all programming languages are Arrays and Lists(aka linked lists). These structures are so common that nearly every programming language provides some level of direct support for them. What is the difference between Arrays and Lists? When should a developer use one over the other? And how are they implemented under the hood?
 

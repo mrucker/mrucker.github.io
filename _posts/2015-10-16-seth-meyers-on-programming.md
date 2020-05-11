@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 Writing enterprise software is hard. In my experience, a single project can simultaneously have competing stake holders, unrelated distribution chains, and shifting requirements. Luckily, software development isn't the only industry that faces these problems like this. Inspiration can be found everywhere. 
 

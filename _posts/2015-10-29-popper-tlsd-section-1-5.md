@@ -1,5 +1,4 @@
 ---
-layout: post
 title : Popper TLSD Section 1-5
 ---
 This will be a collection of personal reflections and questions inspired by the first 5 sections of *The Logic of Scientific Discovery* by Karl Popper. The post will take the form of a stream of consciousness second draft (the first draft being the collection of notes scratched on any writable surface unfortunate enough to be within arms reach during my first read through).

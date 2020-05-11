@@ -1,5 +1,4 @@
 ---
-layout: post
 title : Three Asynchronous Patterns In .NET
 ---
 Microsoft, over the life of the .NET framework, has used many different Asynchronous patterns. This post will look at three of them and hopefully, in the process, shed some light on options available to .NET developers trying to write their own asynchronous code.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title : What is POSIX?
 ---
 The Portable Operating System Interface (POSIX) is a collection of standards, maintained by IEEE to facilitate application portability between operating systems. This article only considers the [POSIX.1-2008][1] standard.

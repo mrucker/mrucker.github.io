@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 With so many tech blogs I feel I need to give some justification for one more.
 

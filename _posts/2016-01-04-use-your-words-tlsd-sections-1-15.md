@@ -1,5 +1,4 @@
 ---
-layout: post
 title : "Use Your Words: TLSD Sections 1-15"
 ---
 

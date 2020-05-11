@@ -1,5 +1,4 @@
 ---
-layout: post
 title: IEnumerable Vs IQueryable
 ---
 Out of the box LINQ supports two interfaces: IEnumerable and IQueryable. So what is the difference between these two interfaces if LINQ supports them both? Should one ever be used over the other? This post will briefly answer these questions and provide source code to make the difference between the two clear.

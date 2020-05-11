@@ -1,5 +1,4 @@
 ---
-layout: post
 title : "I Paraphrase, Therefore I Am"
 ---
 

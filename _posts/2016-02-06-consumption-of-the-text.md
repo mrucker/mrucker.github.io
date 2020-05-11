@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 
 I've always found writing to be a dark art, for that reason I've hated it. Nowhere else has my effort resulted in such inconsistent outcomes (with the potential exception of css and javascript), a case study in learned helplessness. Case in point, on subsequent tests my GRE writing was placed in both the 35th and 80th percentile.

@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 Machine learning is perhaps one of the most exciting ideas of our time. It shapes our lives  (e.g., Google search) and our dreams (e.g. The Matrix). In an effort to make sense of this field, new descriptive words have entered everyday vernacular: words like deep, neural and emergent. Unfortunately, these words often sound more like they belong in ancient books of magic and mysticism than in our modern age. Fortunately, it doesn't have to be this way. In what follows we'll start with a simple mathematical model -- capturing much of machine learning in its net -- and translate it piece by piece into everyday language without relying on mysitcism.
 

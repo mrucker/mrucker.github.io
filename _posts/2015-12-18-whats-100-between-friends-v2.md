@@ -1,5 +1,4 @@
 ---
-layout: post
 title : What's A $100 Between Friends (v2)
 ---
 For the last two years I've worked as a computer programmer in the [recovery auditing][1] industry. At a high-level that means I've written software to discover and correct errors in financial records. Computer software, by its very nature, is an abstraction built on top of some reality. Usually the abstracted reality is at least concrete itself. With financial software, however, that isn't the case, since money is also an abstraction. Given this situation I've been thinking a lot about the true nature of my work. Ignoring the question of "what is money", I'd like to detail my thoughts. 

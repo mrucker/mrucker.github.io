@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 In the history of probability theory there has been considerable thought devoted to describing the distribution for infinite sums of random variables. In this effort two classic approaches have been developed: (1) Local Limit Theorems and (2) Central Limit Theorems.
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 An excerpt from an email I sent to a few friends last week.
 

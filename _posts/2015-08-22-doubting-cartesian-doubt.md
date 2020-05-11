@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 
 I've always had a predilection towards doubt. This may sound surprising given my religious history, but it is nonetheless true. This contradiction was possible because my doubt has been selective, dwelling on matters of philosophy and ethics while ignoring issues of history and physics. This was largely because, in my youth, the latter seemed trivial and uninteresting. Lately I've been reading Descartes' [*Meditations on First Philosophy*](https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy) which has led me to rethink my doubting disposition. 

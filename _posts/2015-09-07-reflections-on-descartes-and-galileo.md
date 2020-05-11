@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 I've been reading a lot of Descartes and Galileo. In order to preserve my thoughts I want to record some short reflections. These aren't meant to be complete or fully accurate.
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 First a formal definition, .NET Anonymous Types are statically type-checked, reference objects created inline. What exactly does that mean though? Are they different from traditional reference type classes like object and string? How is the "type" checked and enforced if they are created inline? Do they have any other special case limitations or abilities that aren't obvious at first? This post will answer these questions and more. While at the same time, hopefully removing some of the mystique around Anonymous Types so they can be used more confidently and effectively in day to day programming.
 

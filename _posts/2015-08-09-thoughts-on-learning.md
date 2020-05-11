@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 Over the last several months I have been learning a lot of new material on my own. Over this period, I have realized that my learning can be organized into three strategies. By understanding these strategies and their roles I hope to become a more productive learner.
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 Contravariance and Covariance is an advanced language feature in .NET. While it isn't ever necessary, it can add a really nice flair of finesse to a library. It is also a great example of the power of the .NET framework and how much careful thought has gone into crafting it. This article will start with a general introduction to basic polymorphism concepts (needed to understand this feature) then move on to the specifics of contravariance and covariance.
 
