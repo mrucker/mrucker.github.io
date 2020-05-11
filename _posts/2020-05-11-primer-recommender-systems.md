@@ -2,13 +2,13 @@
 title: 'Primer: Recommender Systems'
 ---
 
-The modern era of recommender systems (*RS*) research is largely considered to have begun in the mid 1990's with projects such as GroupLens {% cite resnick1944grouplens %} and Tapestry {% cite goldberg1992using %}. Since that time the field has seen rapid growth in terms of applications and techniques. An early and important survey in the field says that the defining characteristice establishing RS as its own field was the focus on user ratings of items {% cite adomavicius2005toward %}. More recently however, authors have tended to define the field simply as the study of statistical relationships between users and items {% cite shi2014collaborative %}, {% cite aggarwal2016recommender %}, {% cite bobadilla2013recommender %}, {% cite lu2012recommender %} and {% cite ricci2015recommender %}. This later definition creates room for important sub-topics within RS such as knowledge-based systems and association rules.
+The modern era of *recommender systems* (RS) research is largely considered to have begun in the mid 1990's with projects such as GroupLens {% cite resnick1944grouplens %} and Tapestry {% cite goldberg1992using %}. Since that time the field has seen rapid growth in terms of applications and techniques. An early and important survey in the field says that the defining characteristice establishing RS as its own field was the focus on user ratings of items {% cite adomavicius2005toward %}. More recently however, authors have tended to define the field simply as the study of statistical relationships between users and items {% cite shi2014collaborative %}, {% cite aggarwal2016recommender %}, {% cite bobadilla2013recommender %}, {% cite lu2012recommender %} and {% cite ricci2015recommender %}. This later definition creates room for important sub-topics within RS such as knowledge-based systems and association rules.
 
 # Taxonomy of Techniques
 
 Within the RS corpus there is relative agreement over the following taxonomy:
 
- * Collaborative recommendation methods (aka, collaborative filtering (*CF*))
+ * Collaborative recommendation methods (aka, *collaborative filtering* (CF))
  * Content recommendation methods (aka, content-based recommendations)
  * Knowledge recommendation methods (aka, knowledge-based recommendations)
  * Hybrid recommendation methods
@@ -17,17 +17,17 @@ The primary characteristic distinguishing these methods is the ratings informati
 
 Additionally, the duality of user-item ratings gives each method two interpretations:
 
-<svg width="505" height="325" viewBox="0 0 505 325">
+<svg width="90%" height="90%" style="max-width:500px;" viewBox="0 0 500 320">
 
     <style>
 	.header { font-weight: bold; }
     </style>
 	
-    <rect x="100" y="20" width="400" height="300" rx="5" stroke="black" fill="transparent" stroke-width="2"/>
+    <rect x="100" y="20" width="398" height="298" rx="5" stroke="black" fill="transparent" stroke-width="2"/>
     
-    <path d="M 300 20  V 320" stroke="black"/>
-    <path d="M 100 120 H 500" stroke="black"/>
-    <path d="M 100 220 H 500" stroke="black"/>
+    <path d="M 300 20  V 318" stroke="black"/>
+    <path d="M 100 120 H 498" stroke="black"/>
+    <path d="M 100 220 H 498" stroke="black"/>
     
     <text x="90" y="70" alignment-baseline="middle" text-anchor="end" class="header"> Collaborative </text>
     <text x="90" y="170" alignment-baseline="middle" text-anchor="end" class="header"> Content </text>
