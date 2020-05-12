@@ -6,7 +6,7 @@ The modern era of *recommender systems* (RS) research is largely considered to h
 
 # Taxonomy of Techniques
 
-Within the RS corpus there is relative agreement over the following taxonomy:
+Within the RS corpus there is relative agreement over the following taxonomy {% cite aggarwal2016recommender%}, {% cite ricci2015recommender %}:
 
  * Collaborative recommendation methods (aka, *collaborative filtering* (CF))
  * Content recommendation methods (aka, content-based recommendations)
