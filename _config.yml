@@ -1,3 +1,6 @@
+# requires
+#   sudo gem install jekyll-scholar 
+#
 # the site as it currently exists is using the built in syntax highlighting and no other extensions
 # For the purposes of rendering equations the math_engine below is turned off and KaTeX is included
 # as a JavaScript references in head.html for client side rendering. The syntax to being math blocks 
@@ -40,8 +43,6 @@ defaults:
       path: "assets/*"
     values:
       layout: "null"
-
-
 
 # Personal info
 email          : rucker.mark@gmail.com
