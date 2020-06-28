@@ -22,7 +22,7 @@ collections :
     order:
       - info.html
       - projects.html
-      - articles.html
+      - papers.html
       - musings.html
 
 # Defaults
