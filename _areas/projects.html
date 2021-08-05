@@ -2,7 +2,7 @@
 description: "Mark's notable projects"
 ---
  
- {% assign projects = site.data.projects | sort: 'position' %} 
+ {% assign projects = site.data.projects | sort: 'position' | reverse %} 
  <ul class="top-list">
  {% for project in projects %}
    <li>

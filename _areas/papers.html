@@ -1,13 +1,13 @@
 ---
-description: "Mark's published articles"
+description: "Mark's published papers"
 ---
  
- {% assign articles = site.data.articles | sort: 'position' | reverse %} 
+ {% assign papers = site.data.papers | sort: 'position' | reverse %} 
 
  <ul class="top-list">
-   {% for article in articles %}
+   {% for paper in papers %}
      <li>
-       <div><a href="{{article.url}}"}>{{article.title}}</a></div>
+       <div><a href="{{paper.url}}"}>{{paper.title}}</a></div>
      </li>
    {% endfor %}
  </ul>

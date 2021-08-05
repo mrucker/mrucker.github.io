@@ -1,17 +1,17 @@
+- title      : Contextual Bandit Benchmarking
+  url        : https://github.com/vowpalwabbit/coba
+  description: A python package created for contextual bandit experiments
+  position   : 7
+
 - title      : Kernel Projection Inverse Reinforcement Learning
   url        : https://github.com/mrucker/kpirl-kla
   description: A non-linear inverse reinforcement learning algorithm for large states spaces
-  position   : 1
-
-- title      : Kernel Lookup Approximation
-  url        : https://github.com/mrucker/kpirl-kla
-  description: A non-linear reinforcement learning algorithm for large state spaces
-  position   : 2
+  position   : 6
 
 - title      : Master's Thesis
   url        : https://thesis.markrucker.net
   description: Researching how to improve task based mouse control 
-  position   : 3
+  position   : 5
 
 - title      : DSI Fellowship
   url        : https://dsi.markrucker.net
@@ -21,14 +21,14 @@
 - title      : This Website
   url        : https://github.com/mrucker/markrucker.net
   description: The Jekyll fragments that create this website
-  position   : 5
+  position   : 3
 
 - title      : Rucker.NET 
   url        : https://github.com/mrucker/Rucker.NET
   description: A collection of libraries to work with large data sets 
-  position   : 6
+  position   : 2
 
 - title      : Capacity 2011
   url        : https://drive.google.com/open?id=0ByS2UG_X7wkOZmVkc0lSSXNxT0U
   description: A report written for the RFBO executive team
-  position   : 7
+  position   : 1
