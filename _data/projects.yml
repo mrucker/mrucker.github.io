@@ -1,21 +1,31 @@
+- title      : Eigen Memory Trees
+  url        : https://github.com/vowpalwabbit/vowpalwabbit
+  description: Added the Eigen Memory Tree reduction to VW
+  position   : 8
+
 - title      : Contextual Bandit Benchmarking
   url        : https://github.com/vowpalwabbit/coba
   description: A python package created for contextual bandit experiments
-  position   : 6
+  position   : 7
 
 - title      : Kernel Projection Inverse Reinforcement Learning
   url        : https://github.com/mrucker/kpirl-kla
   description: A non-linear inverse reinforcement learning algorithm for large states spaces
-  position   : 5
+  position   : 6
 
 - title      : Master's Thesis
   url        : https://github.com/mrucker/ms-thesis
   description: Researching how to improve task based mouse control 
-  position   : 4
+  position   : 5
 
 - title      : DSI Fellowship
   url        : https://github.com/mrucker/dsi-values
   description: Researching the ethics of recommender algorithms
+  position   : 4
+
+- title      : Data.net
+  url        : https://github.com/mrucker/data.net
+  description: An open source library for data manipulation in C#
   position   : 3
 
 - title      : This Website
