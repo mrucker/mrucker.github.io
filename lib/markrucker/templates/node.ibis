@@ -59,16 +59,16 @@
                 <nav role="navigation">
                     <div class="row">
                         <div class="col-auto">
-                            <a href="/About">About</a>
+                            <a href="/about">About</a>
                         </div>
                         <div class="col-auto">
-                            <a href="/Projects">Projects</a>
+                            <a href="/projects">Projects</a>
                         </div>
                         <div class="col-auto">
-                            <a href="/Papers">Papers</a>
+                            <a href="/papers">Papers</a>
                         </div>
                         <div class="col-auto">
-                            <a href="/Posts">Posts</a>
+                            <a href="/posts">Posts</a>
                         </div>
                     </div>
                 </nav>
