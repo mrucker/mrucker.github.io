@@ -1,0 +1,13 @@
+{% extends "node.ibis" %}
+{# http://www.dmulholl.com/docs/ibis/master/inheritance.html #}
+
+{% block content %}
+    <ul class="top-list">
+        {# http://www.dmulholl.com/docs/ibis/master/tags.html#for #}
+        {% for child in node.children|numeric_sort|reversed %}
+            <li>
+                <div><a href="{{child.external_url||child.url}}">{{child.title}}</a></div>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "node.ibis" %}
+{# http://www.dmulholl.com/docs/ibis/master/inheritance.html #}
+
+{% block content %}
+    <div id="post">
+        <div class="title">
+            <h1> {{ node.title }} </h1>
+            <h2> posted on {{ node.date }} </h2>
+        </div>
+        <div class="body">
+            {{ node.html }}
+        </div>
+    </div>
+{% endblock %}

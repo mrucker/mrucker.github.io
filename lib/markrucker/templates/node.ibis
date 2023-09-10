@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73614879-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-73614879-1');
+        </script>
+        
+        <!--twitter bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!--katex-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+                            onload="renderMathInElement(document.body);"></script>
+
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+
+        <!--stylesheets-->
+        <link rel="stylesheet" href="/assets/markrucker.css" />
+        <link rel="stylesheet" href="/assets/pygmentdefault.css" />
+
+        <!--favicon-->
+        <link rel="shortcut icon" href="/assets/favicon.ico" />
+
+        <!--encoding-->
+        <meta charset="utf-8">
+
+        <!--responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        {% if node.title %}
+            <title>{{node.title}} - Mark Rucker</title>
+        {% else %}
+            <title>Mark Rucker</title>
+        {% endif %}
+
+        {% if node.description %}
+            <meta name="description" content="{$ node.description|spaceless|striptags|truncatechars(160) $}"/>
+        {% elif node.excerpt %}
+            <meta name="description" content="{$ node.excerpt|spaceless|striptags|truncatechars(160) $}"/>
+        {% endif %}
+    </head>
+
+    <body>
+        <div class="container">
+
+            <header id="banner">
+                <h1><a href="/">{{site.title}}</a></h1>
+                <h2>{{site.tagline}}</h2>
+
+                <nav role="navigation">
+                    <div class="row">
+                        <div class="col-auto">
+                            <a href="/About">About</a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="/Projects">Projects</a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="/Papers">Papers</a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="/Posts">Posts</a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <div id='content'>
+                {% block content %}
+                    {{ node.html }}
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>
